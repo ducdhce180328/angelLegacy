@@ -1,0 +1,7836 @@
+fileFormatVersion: 2
+guid: c936f0edabb99864580e38702f761285
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 345
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7689128c116aa724584f908a1b903e82
+      internalID: 1246602698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e599140504b0a4b4fabf3a227f1f760d
+      internalID: -840885094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 337
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3d54ec809b93849937dbc87edd1db0
+      internalID: -1120740923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7e2d19fd6e6f048be2d21b02c4c30c
+      internalID: 1902551099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 345
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f68cf03f316db4cbd65a44577adc28
+      internalID: -1338049629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c9e2cff38522e4681fe1adbacfa822
+      internalID: 912931752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 337
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c440366b5405844e819966dcddaa840
+      internalID: 965555649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 340
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a1c90c4c9507848a09691809443bb4
+      internalID: -902012813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 343
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e52ba571be75a448b2951dfcdff515
+      internalID: -1329147413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 344
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64773695bbc0a3847b21ce6700e6f8f7
+      internalID: 1575131342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 344
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ee4f49cc649d44e82827788ff5693b
+      internalID: -174763007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 345
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11575c30676d52c4e9233661a1043d34
+      internalID: 1129758951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 345
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97556580fc560a649b762bd1a0259c2f
+      internalID: -839251051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_13
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 344
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9809a00f48bf217439bd60cc9435948b
+      internalID: 457469215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_14
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 344
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec94e2ba299a1247b6eb0f1bbe170c9
+      internalID: 2135807784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 338
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e3792bb6bb8e64ebb5576abc030640
+      internalID: -1630731096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_16
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 338
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e952b38248e1a4c8f5f9159e914046
+      internalID: 1722378770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 337
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778569ade21ad354689621087c84194e
+      internalID: 1406605436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 339
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cf32ee16b0b184dad48444db7fa24d
+      internalID: -1085221519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_19
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 346
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6638e401abd4d47bb7715bafc4ea1d
+      internalID: 195047566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_20
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 346
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467347f189e10fd4cabe3fe1a5d16f8e
+      internalID: 2072444842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_21
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 339
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5e4c2deadfa74ebc713e049dba218
+      internalID: -1727259103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_22
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 337
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522ff301c9166847b11f6895967e691
+      internalID: -1856123457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_23
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 338
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb23df05a6cea7e4f86fa91980de7aab
+      internalID: -1714281691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 314
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731ca8b56ba0144498e63a69b21f3edd
+      internalID: -636331589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 317
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20d4467215eb04791fe796311e29b6
+      internalID: 930123693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 315
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9846056a15b754db5ef7a9fbe7a0b0
+      internalID: 1114723758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_27
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 314
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b5ff7cbf3cf4449e370840627f117
+      internalID: -530631198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 314
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b3d67ec1048f41beffbadaa95cb68
+      internalID: -1939608184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_29
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 317
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dc289155d5eb44fa40d7c7de546310
+      internalID: 1904889618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 315
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c258bf4ec46352e4691d8388ff697b22
+      internalID: 1751309585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 314
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692ec4c410c2a8d4a95eca57728ccc23
+      internalID: 644664018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_32
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 315
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13145ddff525134abff7d75a8cfdedc
+      internalID: -711034531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 315
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47fca4b182cd3a4c84d3409454656b0
+      internalID: -1329049910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_34
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 315
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e278f25a89f24b846b8692095a2afd4f
+      internalID: 785255269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_35
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 316
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1991b6747bd118b4a8b0611eba35a044
+      internalID: 1800151395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_36
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 316
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886167c69441c084cb699427777d0d6d
+      internalID: -1656476118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_37
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 316
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce84b8a20c5e65d4498fc039240bcd1a
+      internalID: -1826558726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daeb2f3be808b448baf9294f3b644c5
+      internalID: -1308728860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_39
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 315
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab390975053f8154187aa473ccc17a43
+      internalID: 1663787699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 313
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb1763754d46974fa667db5776b87dd
+      internalID: -1848996273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_41
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 313
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600ff5b53e726c54da74c0685596842f
+      internalID: -982262847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_42
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 314
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1111597889e944447852fe18958ca1ed
+      internalID: 351016983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_43
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 314
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec0fc213cc2f742a0265916a344305
+      internalID: 1162816406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_44
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 314
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f4cac2456dfbc44b2d267e7cc0bcdc
+      internalID: -1269176729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_45
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 314
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e594827b9ebc44b91d63138c335496
+      internalID: 1241063459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_46
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 314
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7695195d53b2ab40a1bae25e5fa52a3
+      internalID: -755864742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_47
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 313
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf625a7bd60cc74bba14910c399eeed
+      internalID: -1096733199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c247c46d99c1c0479691856b5ccb74d
+      internalID: -679399324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 293
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4240117bf0e574d8df908c2cf1bc1c
+      internalID: 1520908180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 295
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51109370dcd9c004fb90fa168a37f5dc
+      internalID: 360274911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 296
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc47ffdc69da5434f9917bc271b48646
+      internalID: -1338275989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 298
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a5ced19b17d8d4889a9c68c6088fe1
+      internalID: 1985566047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_53
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 296
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f091c75b265114cb3d7f80e0a959f5
+      internalID: 200766653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 295
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ebc2761b5fa104980f80f83edae87b
+      internalID: -440896889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_55
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 293
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118e60f6d6d545b449b23c003d52db2c
+      internalID: -1428579769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_56
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 292
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9599ac970d6ebdc4ebb0c933198e1949
+      internalID: 649322034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_57
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 292
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2443668cbeaf58340983b32b0ac30efc
+      internalID: -540369623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_58
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 293
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd71d15b92d6da478641ed1b53252dd
+      internalID: -1705798452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_59
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 293
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dc45aa4a2df2b44b6d279fd13f7d14
+      internalID: -1552357148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_60
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 293
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f505a98c8d76ba4fabd2f13c567ee4b
+      internalID: -1799623951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_61
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 293
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d822b52c4f8b0458b4ee2319d102a6
+      internalID: -982710537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_62
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 293
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7613aa8c99e6f3c4794030006fb23fd0
+      internalID: 1260084287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_63
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 293
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb14ffe5b32954428c1cc79dbfcd9d7
+      internalID: -570705243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_64
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 294
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5bca85fe9a5f949827705a4de7c39b
+      internalID: -837770981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_65
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 293
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3787c1d6caaf2438d188b69324cca7
+      internalID: -664628255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_66
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 292
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b48f045f370434396e8e2ce21c8583
+      internalID: 1802686450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_67
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 294
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2003ebf4c0bd41047921249aca292cdd
+      internalID: 83017433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_68
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 294
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4750e1cb7d18c743bbaff98c9df3cbb
+      internalID: -1826056551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_69
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 292
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a321c7bf550544694f2bb0be0c7c6d
+      internalID: -1820939799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_70
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 293
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda6637873d0bee44a4a9c62b5698045
+      internalID: 776643870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_71
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 269
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210f19b83d9fb044abc595b986b206d7
+      internalID: 78927035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_72
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 270
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fc4b488234ab34b81452006f1cd0a3
+      internalID: 1433503374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_73
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 272
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3254e32ae0ff2d44a612fd316343ea1
+      internalID: -933097331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_74
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 273
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e71aa81be57c6746a5653ccf717abe8
+      internalID: 1877175982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 274
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b020550a76446145a3747815143ddc9
+      internalID: -972684282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_76
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 273
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b633a23d31e84489b98d6db1487ef0
+      internalID: 2048797783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 272
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2feb771637122104cadc14d6abd2bbb5
+      internalID: 770531599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_78
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 270
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9c7cae64c54cf419ae28cbe5d25971
+      internalID: 1524713932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_79
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 269
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0f0a3d7e79f4c46ab9627f626129e8
+      internalID: 46646493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_80
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 270
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d49009cd9dc0d4491b7d1b018f9bae
+      internalID: 1189453180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_81
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 272
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00caf5b59335fc428e6712cb73c2a37
+      internalID: -1377760917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_82
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 273
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6edc32f8821e642bd3edfe2614638d
+      internalID: 1729242154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_83
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 273
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffddf9db48644543b817ddb5818f39f
+      internalID: 260989010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_84
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 272
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287d91f2a1c1b144aaf7d49fc4cebdb7
+      internalID: 274354798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_85
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 270
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3d26cf28bd7946a85f5590c1784b1
+      internalID: -451956133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_86
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 266
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40e38957acb6c4b989983c036f4718
+      internalID: -1752487936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_87
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 267
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895afbc88c05c5c448b6f81ed91c7c76
+      internalID: -1332847815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_88
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 267
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3a4ab4e983275429c929b7f74c9636
+      internalID: 1962041281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_89
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0f2c79e5c4db846bf18a4e43a07e4e
+      internalID: -1437488481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_90
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dfbafd0f0bb074ab37ba932c4b4c07
+      internalID: 1378179335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_91
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f33a9aa7f2364fa0b6b6348986a21
+      internalID: -914399509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_92
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 267
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0dbdaf763b4a4a95fd6d3f74454d6
+      internalID: 1627232669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_93
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 267
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b228694033c8549add6e7d3d72ef06
+      internalID: 2068325707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca220a13dbb8f4489afaf429ebc22fc
+      internalID: -1151163291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_95
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 249
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8deae8c66d53948929bd45bdd7c65c
+      internalID: 1450061928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_96
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 249
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509121e2eacbf924cbce0cde9afcb6e3
+      internalID: -454743750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_97
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 250
+        width: 42
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754ae84f30281554c9f06ddcd3c0f98d
+      internalID: 747642489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_98
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 250
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19cae572df40f8489a53c4d9a4b890c
+      internalID: 554759636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_99
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 249
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e0579063b77f544aa8d9fa5a3a14da
+      internalID: 831880511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_100
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 249
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979be6b5d3558b044b4c368a00e8fa85
+      internalID: 1050461340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_101
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 246
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100cdcd0173593948b14001f8d330aa0
+      internalID: -86179012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_102
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 246
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c4dc0471dcd34db02ff49615e6813
+      internalID: 1488824853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_103
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 246
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a93d18bcfd6f424593455cba74cd7fe
+      internalID: 273688735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_104
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 247
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c129dcc985a78478d47017d44de520
+      internalID: 2030237812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_105
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 247
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104da1e593a5a044ebec0ab8e42cd5b2
+      internalID: 831176860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_106
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7762d9e121f833047b5b45caa8253b09
+      internalID: -2081779520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_107
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 247
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a34e9c2cbdcfae44afff3e1f23462e5
+      internalID: 1120931375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_108
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 247
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af442d0378a264b4ebb594711bd1f002
+      internalID: -1934888846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_109
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 244
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22a8535afdfa5f49a5e5ca49b83be13
+      internalID: -1801848289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_110
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 244
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386234fa69aa33a4f887538748081f7c
+      internalID: 178042062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_111
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 244
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85d5ee99deace64ea43e7012788b111
+      internalID: -700387951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_112
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaa1e5bd6a84004aa024f509dd4cb06
+      internalID: -609485355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_113
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 243
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e14abfaf9e6496429ace2db990df501
+      internalID: 923803834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_114
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 243
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508279e62d23a924d9f19c0b5eedba9e
+      internalID: 1735958791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_115
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 243
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b777e4dfa31ff4bb37776f4677e472
+      internalID: 124467650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_116
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 244
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d1accc2ae87a4789acab45a5bafe0
+      internalID: 1780915688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_117
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a617431657b84428eef78b0639abb5
+      internalID: 1998670833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_118
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8bc0712975e144c8edeffda83ce60e
+      internalID: 1546085289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_119
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 217
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e7535b570626409f5ee196fce0f81
+      internalID: -1408645644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_120
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb16fdd38736a7459ab50edbbe3c94f
+      internalID: -616549901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_121
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 225
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27833464482b2de48a6b5d5083f32892
+      internalID: 452887294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_122
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6f7a91614f92e49b17ba2c74c08ef0
+      internalID: 1731251332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_123
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 217
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e4e7e8b2cb40f4695eb1fc815c2396
+      internalID: 480989802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_124
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749fa9e490e943b4b9a62245e16c13e9
+      internalID: 1595392803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_125
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 223
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ef90f1af875694f81a5b64fe041958
+      internalID: 2119857794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_126
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 224
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddb8e5d6ce4a234aaba68071706c46d
+      internalID: -1300923276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_127
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 224
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6b9300b9ca7234789248e3c723a3b5
+      internalID: 1920263354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_128
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 225
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f7f640d0adfe14faebc56ea3adb023
+      internalID: -1664636578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_129
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 225
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb3821f33186e44ba27329dfdcc2b1
+      internalID: 1434929953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_130
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 224
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e39e245486523b469de97b40e661f0e
+      internalID: 822083664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_131
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 224
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c612467988b8d44a61e24a4cae0486
+      internalID: -1978265711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_132
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 218
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c5d74a4d8c8d74082b3216ab30d012
+      internalID: -404471853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_133
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 218
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be0efb2c5973374ba6268f55551cbe2
+      internalID: 1198528510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_134
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 217
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a2535560c092845a9417119989543d
+      internalID: 968583681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_135
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 219
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c19a63d8b38dc4f8eb07b71be5e48e
+      internalID: -1349220846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_136
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 226
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cc41ff1ee8535498f349c062a11742
+      internalID: 57307583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_137
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 226
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611062befc326bd4088eed4b4548c012
+      internalID: -2056495315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_138
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 219
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdc02589ae5e2e44835ad98d5683444
+      internalID: 1475916047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_139
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 217
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cf37a9d6b42d0448e6c92355f45de2
+      internalID: -2023716266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_140
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 218
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb490a5eb018204ebceccfcae5a9801
+      internalID: -1267560376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_141
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 194
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d5ded43995a734baf233d2a6f1ff66
+      internalID: -1650053457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_142
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 197
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792d24a530e02674bbc716a7ead21362
+      internalID: 1006746681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_143
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 195
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a1be9da7a7254bb69c077e5d5caad
+      internalID: -2086653075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_144
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c66070d8478fc34fb841f2e74aa68bf
+      internalID: -1890087703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_145
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 194
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dec746144c371c4a8353e0807e6a663
+      internalID: 190788271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_146
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 197
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2571b3a0e4e976489697b39760f1c15
+      internalID: 1059582136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_147
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 195
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3a9cbe366f2e54ba5b41883f9a2976
+      internalID: -1892027935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_148
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 194
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a35654af5532244bba130ad0f33d851
+      internalID: 1586672736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_149
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d768dbb961a277d4987d915d90d382fb
+      internalID: 690682379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_150
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ca424f3edf49a47a556327ac3edefa
+      internalID: 1457116123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_151
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 195
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1030657660f8c58419c6f9832977d16d
+      internalID: 1630610196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_152
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70863bd6802f354d8452d320a860996
+      internalID: -483327640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_153
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43070a0c40d9b2d45833c063821dfccb
+      internalID: 316901577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_154
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de031104f001b8143be0a474c65a3871
+      internalID: -592688971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_155
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 195
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980711bc1fcad924db56da5104a89c39
+      internalID: -1031405387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_156
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f122a7971b96f7458ad2c0171a2fd27
+      internalID: 475786324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_157
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 193
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f304fa2276c754c8d7ede696557f66
+      internalID: -269700085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_158
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 193
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f90533b086e3e45bcfab93ff949752
+      internalID: -1907823725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_159
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 194
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e271369bf5cf9478abab2f3df1166e
+      internalID: 964867238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_160
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 194
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a53dcbf7cd9d5249b30f1d7158d46ad
+      internalID: 1010520288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_161
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 194
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d323eb0edd5294a8ae7624feb448f8
+      internalID: 1635373965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_162
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 194
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c2828949c7ff7499e3851b4981d9d2
+      internalID: 766462383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_163
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 194
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ff054f2c766734b8c82d974be28bfd
+      internalID: -1754345555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_164
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 193
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36637dc97522f744e979a27bb7f1a3de
+      internalID: 1608120013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_165
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d5e4aede2439248ae035cfed7238ad
+      internalID: 725426112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_166
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 173
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837c66ce1b9b6254d9ffdffd2c11dd96
+      internalID: -1107086998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_167
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b47dd8d88585d843b81196b57acff6d
+      internalID: 1687373319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_168
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 176
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323294b313462dd4f8967366371b5883
+      internalID: 421406798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_169
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 178
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc20bca4d6bd94d96a1f68f4a3f779
+      internalID: 1300305089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_170
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 176
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f8b47736cf6dd47845c37eed386a57
+      internalID: 1324329700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_171
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 175
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e76bd5defe3d094ca7528974e06b0bd
+      internalID: 1926822423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_172
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 173
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadf2c2f240fcb044ab3e2682d1f4ed5
+      internalID: 1516468338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_173
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fff84c931efc946b959347d92366f0
+      internalID: -256416206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_174
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 172
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26d63f6a1f16db40abe164895285f00
+      internalID: 803298837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_175
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 173
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d0c215dfa8dc2458d7764019681bb5
+      internalID: -1526447551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_176
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 173
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a618c95f91567d4dbc8de01b72e0669
+      internalID: 1375217892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_177
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 173
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971673c3df6d2749845001271ea2e5d
+      internalID: -31048520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_178
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 173
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249b314336790aa43ab151f476a38747
+      internalID: -1606550423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_179
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 173
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5355b5089bed9274482177fcd92424fc
+      internalID: 711413473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_180
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 173
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4837a10ef89654d9ebff89ea4012d7
+      internalID: -2131934000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_181
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 174
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f1e784f59ada34c8ad761f372b536f
+      internalID: -1624278617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_182
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 173
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7658790bb892d42ba237476b7ddb9d
+      internalID: -2084347220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_183
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 172
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45b74f50aa998e49abf6f7481c9c59a
+      internalID: -1317632754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_184
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 174
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb63ebf57d6d03e47a31f75d0709027f
+      internalID: -121274206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_185
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 174
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea41ea3278905d84bbbc0b4f50ff9269
+      internalID: 633757675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_186
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 172
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cfdf92051f7bc449a3301d359fc61d
+      internalID: -850881293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_187
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 173
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb9c19e5bcdb0947af48593fa80f7f9
+      internalID: 1098271778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_188
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 149
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba5460f1a367a428d7c4ec3cc1de53
+      internalID: -1574852427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_189
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 150
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8476668394f87a40a8008bf7b69fb6b
+      internalID: -1457430371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_190
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 152
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523db72a0f968794aa3ab594d4c2c0d1
+      internalID: -538694970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_191
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 153
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace4a6c2a024a9f44817ac903a71adb9
+      internalID: -1765986657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_192
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 154
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e580d02f13e537947bee4000baf97180
+      internalID: 697514023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_193
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 153
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead09c3ad1bdab14fa71903d34d8ecfc
+      internalID: -233777757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_194
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 152
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f05ce58692974db28cbf03669fb60
+      internalID: -817597743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_195
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 150
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fc66b1bae8e9a4791a0015ab163c51
+      internalID: -2083871253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_196
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 149
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dba574334de2ac4eafe08e72bbb8ef8
+      internalID: 1325283375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_197
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 150
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a355e52a354a7e4f852165d2bd38b50
+      internalID: 2028842860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_198
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 152
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c20096d3910284eae812ebda92ad75
+      internalID: -366910599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_199
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 153
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b7d9b743b88224dac81ac9f511dabe
+      internalID: -1862880841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_200
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 153
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d313c083cabf0574083c8f05fe604954
+      internalID: 353339794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_201
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020be04d46a81e4fbc78810abd25c16
+      internalID: -970246936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_202
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 150
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9773f9f20ad3240a15d6c276cc8dad
+      internalID: -781470595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_203
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 146
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b250e2860664342a43cde72051f9a3
+      internalID: -1794899390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_204
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fb6076fa93cf34c869a345583023e8
+      internalID: 1414907690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_205
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548838b8a7ffa7448bfd0b5ab148752a
+      internalID: -2044104768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_206
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1b9ed5eef04244af2fa0c6a714e39
+      internalID: 1389617855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_207
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d997bf41a1b027409a21af677c60cde
+      internalID: -1274967075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_208
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3241f49c2f1d3924b872204915751732
+      internalID: 1597058723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_209
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100b228522ff13d45b7de2c8a0197678
+      internalID: 347841748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_210
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8abe224a8acf1a46acbf56092bd2bd4
+      internalID: -1500811324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_211
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6bb3ba0b2ed049b13f9a842849b1f
+      internalID: 1575352796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_212
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 129
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c6ca0048abff74ea674ec8b7a6d377
+      internalID: 16850009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_213
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 129
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc830901c224d0b439e6675ced255107
+      internalID: -1303121810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_214
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 130
+        width: 42
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0860e6dfff2a27f449ccde8373e032d5
+      internalID: -865395828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_215
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 130
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24580bde77716c642a2c41097ff44f4b
+      internalID: 1609367320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_216
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eddd5baa029c7041a85fb49a1e0b69b
+      internalID: -1046782339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_217
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 129
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4086d2a61d8972849bd5f3caacbf852d
+      internalID: 1794747506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_218
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 126
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef16198abbd744047b1b53e02cfc63c1
+      internalID: -992903692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_219
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 126
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95914304eddc1524296511eabe1979d2
+      internalID: 190612162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_220
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 126
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3552e9ee3ea454c988bd0940a5e41c
+      internalID: -1825780868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_221
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 127
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c1c0a34dfb31049b8f81e03fbe2e11
+      internalID: 994520992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_222
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaffe03a8f00cd499b126c432d71ac2
+      internalID: 1791917537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_223
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e444e11e26afc544985fbd240e51632
+      internalID: -1485425004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_224
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 127
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d169c5ebacd90488fac4e54d161784
+      internalID: -31991995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_225
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 127
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e28854a2f33ad04fab59fc98c8ce404
+      internalID: 2093582447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_226
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 124
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5f2edb9006c04489a6cdf9846a06f3
+      internalID: -32985762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_227
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 124
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7034d5af76afc54a952e52a0dd2c227
+      internalID: -1363213758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_228
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d37b408d0e35349ad731453c888e82
+      internalID: 1420116667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_229
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 124
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891366f1fe4a5a34d939b13509bb34a4
+      internalID: -1042036626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_230
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 123
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df448814b05d44349991c134c59cef44
+      internalID: -1936590901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_231
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 123
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dba07805d21584ca60a2b045ec62b8
+      internalID: -1255807674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_232
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 123
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba276db3dff33084c99a38baa76574ce
+      internalID: 1133989316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_233
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 124
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5b341e236a1eb4f8bb38e876f8ca83
+      internalID: 1009542285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_234
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 105
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faa94ddf6f5edf41a260f8b55f49041
+      internalID: -1988846758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_235
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa04fe9a11fddd4592a8e8dd765c3ce
+      internalID: -1694811990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_236
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 97
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb0d50bb34d2ca4d95076c93c4d7056
+      internalID: -1896397196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_237
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2021f6a7b9fd9f144bf5544c61edfd29
+      internalID: 588159475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_238
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 105
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1abc11c690c2bf4bb91ba995b5304a2
+      internalID: -1420991357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_239
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54935d713c3c9e548bfcde241d4a5565
+      internalID: 627750699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_240
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 97
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e8f3b939afff24c9cb7bffdbdff0f8
+      internalID: -1093852627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_241
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c39f46b8538249837f8723b15be5c
+      internalID: 709476836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_242
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 103
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce6c055007d2154ea39251fc10f1d6b
+      internalID: -261721465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_243
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 104
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3db9d5e46db39a46aca128152ee76fe
+      internalID: 1437428608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_244
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62bc5c6d8439b94d8d08fe167bfa192
+      internalID: 945850144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_245
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 105
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6beae1ff00ca4d40909b808526027f3
+      internalID: 2074581856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_246
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 105
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3073a798d825d4e8c539cd5c3f490a
+      internalID: 742139987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_247
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 104
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974bd8c4d8a30fe428f0b738d81f18b5
+      internalID: -2021320817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_248
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 104
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87f046b683f202428db1608166287b2
+      internalID: -599658426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_249
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 98
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b935c73381ab8345b84bfe917e6778c
+      internalID: -1088995379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_250
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 98
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d1bc68a18f32343a1abee3e93dae74
+      internalID: -730309060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_251
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 97
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09668fa1d3d99494384791fbd2824f1f
+      internalID: -713861329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_252
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 99
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9f6993c2872064d92eedbe0726f1af
+      internalID: -1480908397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_253
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 106
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f4a58efb55559449b97ff4c30b3dc4
+      internalID: -2054153047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_254
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 106
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a8396811b87d64f947c6b929642120
+      internalID: 2017123840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_255
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 99
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5db4e8a28332fb47b337ec7ed1dfd54
+      internalID: 1265050931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_256
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 97
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c097337fb7f0b2b42b7ee781f168b50d
+      internalID: 662200170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_257
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 98
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f185fe460f39024c8401b84ac58a377
+      internalID: 135569460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_258
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 74
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee07a34176fc0c84aabaa00332aa5247
+      internalID: -28694008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_259
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 77
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cc51e9e8d19ed4bad106fcd4f4ea0f
+      internalID: 168377967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_260
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 75
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae93e47dcedf0f43b214ae2d50a2728
+      internalID: -221495136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_261
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 74
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e38012778ee59d42817b14511d49ea8
+      internalID: 1717902617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_262
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 74
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d5e7970a4cbd948a027ca74b963d4c
+      internalID: 2046777115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_263
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 77
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac4cbeb074dd04083382160a5dfb66
+      internalID: 1860945397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_264
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 75
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166f98f7498bb18438d59fa54ba6f885
+      internalID: 149742298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_265
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 74
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e520c06e4b038424ab0567bb1718edd7
+      internalID: -2056748607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_266
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 75
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19c0173efd84134ca7e348a92f101b5
+      internalID: -1077921118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_267
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 75
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1aa6e5c07a9b44c8b6f444d0ece43f
+      internalID: 832926240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_268
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 75
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d162b63ee76de0143ad1c901d53be5ef
+      internalID: -978697275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_269
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4c70e4604716f45ad40f0435e1e7c1
+      internalID: 35192391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_270
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0b3acc0d9f0524399fb3fd5732339d
+      internalID: 1608385982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_271
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2464dfd5e7a5ee44f86c5570033a9836
+      internalID: -208994513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_272
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 75
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11968fa1b22fe54f8ea4c707a75f576
+      internalID: 926348371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_273
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 75
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53957b465d82884d8399eeb5243b77b
+      internalID: -51703053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_274
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 73
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b62421a87ee634eafd52b3a4e43e35
+      internalID: 1301174836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_275
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 73
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5163d7cbfa0a8842a829d61c4f5b420
+      internalID: 1225080697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_276
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 74
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace793a8a184eed479ad782aeb405b40
+      internalID: 1842414365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_277
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 74
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85acd2fc3bcf76943b72c4bea167b0f7
+      internalID: -684399274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_278
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 74
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cf69aa9a7400c4da983d6345964ad8
+      internalID: -1377519733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_279
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 74
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9d2ca2da9cb1448999cbabf6b8105e
+      internalID: 1684214679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_280
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 74
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e07cc667da40844091ef9ae67860812
+      internalID: -1969386100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_281
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 73
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a281252a7c6614ab2ca6fa6af325ab
+      internalID: -1405136014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_282
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be965631f4db5e4f93e89e86f9dc796
+      internalID: -367187428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_283
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 53
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3a8e2d1c071c6439fedc3133a66b8d
+      internalID: 411272674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_284
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 55
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bd365ddb0fa754a8ebf5cbed80ea71
+      internalID: -837696052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_285
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 56
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744f034ed9b800d4091feab4a6ab2026
+      internalID: 1360087212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_286
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 58
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e201be1f4a5c6c047bb13b7a357de57b
+      internalID: 332377354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_287
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 56
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4238c93295be03042880ae7ec614d4c8
+      internalID: -912512829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_288
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 55
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71202efd2fe44dd438e68e4fc1f810b9
+      internalID: 750788050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_289
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 53
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809c440e2b232604ab8476f0f6fd2d51
+      internalID: 32354023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_290
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da1a006afc0b1f4f94d7fd4bf6ef0e7
+      internalID: 298632760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_291
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 52
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bfde6bb33197b46847b1c4b8ac4bfb
+      internalID: 1596041144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_292
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 53
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52359a6ecf7e0f43aad9499ec0f3c92
+      internalID: -1201574436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_293
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 53
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877123b1be2e88f40822453494794507
+      internalID: -2085694302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_294
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6d6717088d2c245b902cacba489ce4
+      internalID: 2010419283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_295
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 53
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc6e55e7d066ba44830088c2776ffbf
+      internalID: -572465108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_296
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 53
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404686d8e99e28c468520bb12092d08e
+      internalID: -2064752682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_297
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 53
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dfc1b9b8424e940939a9de20aa23d3
+      internalID: -285011109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_298
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 54
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26e8636deebe1643abfff0f75947104
+      internalID: 531467505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_299
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 53
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46dcee651ab14945863e0ad534eee27
+      internalID: 156457029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_300
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 52
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff5a9034f88f8e45b81e9f38df1bcb0
+      internalID: -2096273901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_301
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 54
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc55269f7dd71284685a85be72a482ef
+      internalID: 2082061953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_302
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 54
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c95ac8f159f9a54e8475e671829b151
+      internalID: 1727576327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_303
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 52
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d9ba9765e36134daf3a4774c63c8e0
+      internalID: -935171926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_304
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 53
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd5263237421954fa392db60f2c6848
+      internalID: 2029605120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_305
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 29
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411a9a7107bbb6046a62198c760683a2
+      internalID: 936181309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_306
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471baad7fbb9c1544ae14995b17fb3eb
+      internalID: 1321577700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_307
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf6ff98dcada3d40af8473cd705593f
+      internalID: -1114171261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_308
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 33
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba06457a7a8e494e87953affcdbdbf1
+      internalID: 473653250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_309
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 34
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3674bd324aaa4ba25afd2c211bf3d
+      internalID: 1361443471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_310
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 33
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f815bdc8574a24d8dc947bdb3b3e58
+      internalID: -8075260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_311
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 32
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4210e63617eddc14fb529eb0825f860f
+      internalID: 532054254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_312
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 30
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a3a212e5da16c45aa12b646c58e59f
+      internalID: 508601807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_313
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 29
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d767bc661d69cad42a6ce077ac54342d
+      internalID: 1954591112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_314
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 30
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f24173b49dec46ac89e9600bf541f
+      internalID: -1289513018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_315
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 32
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b2215f9538b174cb2e031efb20f898
+      internalID: 1571687921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_316
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 33
+        width: 38
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b90106fde07e741b4bd77e46c52e52
+      internalID: 1063368639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_317
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 33
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fce28f14d07fba4db1b91ca94c5f007
+      internalID: -1968182748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_318
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 32
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb7c84e4735dbc4db4d4ccb0547c743
+      internalID: 684807693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_319
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 30
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54a29270e412834a8a86291018ec9f7
+      internalID: 1909485907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_320
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 26
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adb5decf0cc9904d9d08cab32e511df
+      internalID: 1890155423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_321
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c34db04377eb40bc49bfaf489dcfd
+      internalID: -1924258542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_322
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512f7057cf22c3a4eabd864c71c8d5ec
+      internalID: -80705300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_323
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cd5c2433635944897851dc2020f434
+      internalID: 1910682023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_324
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f103d5de609cb641b06510b7b39e532
+      internalID: -1378419396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_325
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 28
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b7723f70c2bf24fa8faa6b3349d4f5
+      internalID: -337540498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_326
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7186cf5648e85d44a52f32d6e55d41a
+      internalID: -1100154963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_327
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bbeafc84f296849bb6240a26010eb2
+      internalID: 75992639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_328
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eb72a1d729a4a43b1aa81f4089873b
+      internalID: 175530102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_329
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 9
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4647dfe11b8c951428b970f05591c977
+      internalID: -375050286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_330
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661e6cacfad8faf4295ae72c8fe96545
+      internalID: 1908413291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_331
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 42
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51122e53a6ce0ff4bb036704767399de
+      internalID: 784650707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_332
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 10
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcdd9caaf3cd5548a37a6581a2c11f6
+      internalID: 867924641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_333
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 9
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001b6696a6b9b8f48ae4150d23b9b354
+      internalID: -822722960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_334
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 9
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8227a8dde0a564ca7c907ae63553c9
+      internalID: 217005807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_335
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 6
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31c391379be2ca4abea6c2488657058
+      internalID: 859899668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_336
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b2d9635f752a743847e587e9035155
+      internalID: -1358347012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_337
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7f635cd9d5fbb48bc3e03bb389392f
+      internalID: -1017506336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_338
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 7
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619f3cda937a9da4eaff517c9bdc13e6
+      internalID: 751901928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_339
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 7
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda4e76164f5614baf0eac2ed375283
+      internalID: -2068244117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_340
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5374517f7007d044ae6fb783d4856dd
+      internalID: 848110618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_341
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 7
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f3cfb1fc7b66408e02f4f8e8116fc
+      internalID: 1253848286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_342
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 7
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37561799aaf8ca8498f39b7321b53d83
+      internalID: -5076350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_343
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 4
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646f1ba89e61c0d49b3e75781b4dc364
+      internalID: 1774206891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_344
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 4
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ad312a42ce60e40a6d17264d2b56dd
+      internalID: 352359802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_345
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2418d5ac8ded5f44488ff6259f0f4c9c
+      internalID: 1513480319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_346
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 4
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91249ee9c249e44e92f572c02f60d52
+      internalID: -223346707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_347
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df1a06204535b14f8d70dd53f69cb4b
+      internalID: -846522912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_348
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c20210c731cc34a8561388b703d607
+      internalID: 1787825809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_349
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba348f977d6782046ba2091deb3f792f
+      internalID: 2017962216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet 24x24 Free Part 2B_350
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 4
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632919fe276fe7f488f203f24d85c046
+      internalID: -1387936752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bullet 24x24 Free Part 2B_0: 1246602698
+      Bullet 24x24 Free Part 2B_1: -840885094
+      Bullet 24x24 Free Part 2B_10: -174763007
+      Bullet 24x24 Free Part 2B_100: 1050461340
+      Bullet 24x24 Free Part 2B_101: -86179012
+      Bullet 24x24 Free Part 2B_102: 1488824853
+      Bullet 24x24 Free Part 2B_103: 273688735
+      Bullet 24x24 Free Part 2B_104: 2030237812
+      Bullet 24x24 Free Part 2B_105: 831176860
+      Bullet 24x24 Free Part 2B_106: -2081779520
+      Bullet 24x24 Free Part 2B_107: 1120931375
+      Bullet 24x24 Free Part 2B_108: -1934888846
+      Bullet 24x24 Free Part 2B_109: -1801848289
+      Bullet 24x24 Free Part 2B_11: 1129758951
+      Bullet 24x24 Free Part 2B_110: 178042062
+      Bullet 24x24 Free Part 2B_111: -700387951
+      Bullet 24x24 Free Part 2B_112: -609485355
+      Bullet 24x24 Free Part 2B_113: 923803834
+      Bullet 24x24 Free Part 2B_114: 1735958791
+      Bullet 24x24 Free Part 2B_115: 124467650
+      Bullet 24x24 Free Part 2B_116: 1780915688
+      Bullet 24x24 Free Part 2B_117: 1998670833
+      Bullet 24x24 Free Part 2B_118: 1546085289
+      Bullet 24x24 Free Part 2B_119: -1408645644
+      Bullet 24x24 Free Part 2B_12: -839251051
+      Bullet 24x24 Free Part 2B_120: -616549901
+      Bullet 24x24 Free Part 2B_121: 452887294
+      Bullet 24x24 Free Part 2B_122: 1731251332
+      Bullet 24x24 Free Part 2B_123: 480989802
+      Bullet 24x24 Free Part 2B_124: 1595392803
+      Bullet 24x24 Free Part 2B_125: 2119857794
+      Bullet 24x24 Free Part 2B_126: -1300923276
+      Bullet 24x24 Free Part 2B_127: 1920263354
+      Bullet 24x24 Free Part 2B_128: -1664636578
+      Bullet 24x24 Free Part 2B_129: 1434929953
+      Bullet 24x24 Free Part 2B_13: 457469215
+      Bullet 24x24 Free Part 2B_130: 822083664
+      Bullet 24x24 Free Part 2B_131: -1978265711
+      Bullet 24x24 Free Part 2B_132: -404471853
+      Bullet 24x24 Free Part 2B_133: 1198528510
+      Bullet 24x24 Free Part 2B_134: 968583681
+      Bullet 24x24 Free Part 2B_135: -1349220846
+      Bullet 24x24 Free Part 2B_136: 57307583
+      Bullet 24x24 Free Part 2B_137: -2056495315
+      Bullet 24x24 Free Part 2B_138: 1475916047
+      Bullet 24x24 Free Part 2B_139: -2023716266
+      Bullet 24x24 Free Part 2B_14: 2135807784
+      Bullet 24x24 Free Part 2B_140: -1267560376
+      Bullet 24x24 Free Part 2B_141: -1650053457
+      Bullet 24x24 Free Part 2B_142: 1006746681
+      Bullet 24x24 Free Part 2B_143: -2086653075
+      Bullet 24x24 Free Part 2B_144: -1890087703
+      Bullet 24x24 Free Part 2B_145: 190788271
+      Bullet 24x24 Free Part 2B_146: 1059582136
+      Bullet 24x24 Free Part 2B_147: -1892027935
+      Bullet 24x24 Free Part 2B_148: 1586672736
+      Bullet 24x24 Free Part 2B_149: 690682379
+      Bullet 24x24 Free Part 2B_15: -1630731096
+      Bullet 24x24 Free Part 2B_150: 1457116123
+      Bullet 24x24 Free Part 2B_151: 1630610196
+      Bullet 24x24 Free Part 2B_152: -483327640
+      Bullet 24x24 Free Part 2B_153: 316901577
+      Bullet 24x24 Free Part 2B_154: -592688971
+      Bullet 24x24 Free Part 2B_155: -1031405387
+      Bullet 24x24 Free Part 2B_156: 475786324
+      Bullet 24x24 Free Part 2B_157: -269700085
+      Bullet 24x24 Free Part 2B_158: -1907823725
+      Bullet 24x24 Free Part 2B_159: 964867238
+      Bullet 24x24 Free Part 2B_16: 1722378770
+      Bullet 24x24 Free Part 2B_160: 1010520288
+      Bullet 24x24 Free Part 2B_161: 1635373965
+      Bullet 24x24 Free Part 2B_162: 766462383
+      Bullet 24x24 Free Part 2B_163: -1754345555
+      Bullet 24x24 Free Part 2B_164: 1608120013
+      Bullet 24x24 Free Part 2B_165: 725426112
+      Bullet 24x24 Free Part 2B_166: -1107086998
+      Bullet 24x24 Free Part 2B_167: 1687373319
+      Bullet 24x24 Free Part 2B_168: 421406798
+      Bullet 24x24 Free Part 2B_169: 1300305089
+      Bullet 24x24 Free Part 2B_17: 1406605436
+      Bullet 24x24 Free Part 2B_170: 1324329700
+      Bullet 24x24 Free Part 2B_171: 1926822423
+      Bullet 24x24 Free Part 2B_172: 1516468338
+      Bullet 24x24 Free Part 2B_173: -256416206
+      Bullet 24x24 Free Part 2B_174: 803298837
+      Bullet 24x24 Free Part 2B_175: -1526447551
+      Bullet 24x24 Free Part 2B_176: 1375217892
+      Bullet 24x24 Free Part 2B_177: -31048520
+      Bullet 24x24 Free Part 2B_178: -1606550423
+      Bullet 24x24 Free Part 2B_179: 711413473
+      Bullet 24x24 Free Part 2B_18: -1085221519
+      Bullet 24x24 Free Part 2B_180: -2131934000
+      Bullet 24x24 Free Part 2B_181: -1624278617
+      Bullet 24x24 Free Part 2B_182: -2084347220
+      Bullet 24x24 Free Part 2B_183: -1317632754
+      Bullet 24x24 Free Part 2B_184: -121274206
+      Bullet 24x24 Free Part 2B_185: 633757675
+      Bullet 24x24 Free Part 2B_186: -850881293
+      Bullet 24x24 Free Part 2B_187: 1098271778
+      Bullet 24x24 Free Part 2B_188: -1574852427
+      Bullet 24x24 Free Part 2B_189: -1457430371
+      Bullet 24x24 Free Part 2B_19: 195047566
+      Bullet 24x24 Free Part 2B_190: -538694970
+      Bullet 24x24 Free Part 2B_191: -1765986657
+      Bullet 24x24 Free Part 2B_192: 697514023
+      Bullet 24x24 Free Part 2B_193: -233777757
+      Bullet 24x24 Free Part 2B_194: -817597743
+      Bullet 24x24 Free Part 2B_195: -2083871253
+      Bullet 24x24 Free Part 2B_196: 1325283375
+      Bullet 24x24 Free Part 2B_197: 2028842860
+      Bullet 24x24 Free Part 2B_198: -366910599
+      Bullet 24x24 Free Part 2B_199: -1862880841
+      Bullet 24x24 Free Part 2B_2: -1120740923
+      Bullet 24x24 Free Part 2B_20: 2072444842
+      Bullet 24x24 Free Part 2B_200: 353339794
+      Bullet 24x24 Free Part 2B_201: -970246936
+      Bullet 24x24 Free Part 2B_202: -781470595
+      Bullet 24x24 Free Part 2B_203: -1794899390
+      Bullet 24x24 Free Part 2B_204: 1414907690
+      Bullet 24x24 Free Part 2B_205: -2044104768
+      Bullet 24x24 Free Part 2B_206: 1389617855
+      Bullet 24x24 Free Part 2B_207: -1274967075
+      Bullet 24x24 Free Part 2B_208: 1597058723
+      Bullet 24x24 Free Part 2B_209: 347841748
+      Bullet 24x24 Free Part 2B_21: -1727259103
+      Bullet 24x24 Free Part 2B_210: -1500811324
+      Bullet 24x24 Free Part 2B_211: 1575352796
+      Bullet 24x24 Free Part 2B_212: 16850009
+      Bullet 24x24 Free Part 2B_213: -1303121810
+      Bullet 24x24 Free Part 2B_214: -865395828
+      Bullet 24x24 Free Part 2B_215: 1609367320
+      Bullet 24x24 Free Part 2B_216: -1046782339
+      Bullet 24x24 Free Part 2B_217: 1794747506
+      Bullet 24x24 Free Part 2B_218: -992903692
+      Bullet 24x24 Free Part 2B_219: 190612162
+      Bullet 24x24 Free Part 2B_22: -1856123457
+      Bullet 24x24 Free Part 2B_220: -1825780868
+      Bullet 24x24 Free Part 2B_221: 994520992
+      Bullet 24x24 Free Part 2B_222: 1791917537
+      Bullet 24x24 Free Part 2B_223: -1485425004
+      Bullet 24x24 Free Part 2B_224: -31991995
+      Bullet 24x24 Free Part 2B_225: 2093582447
+      Bullet 24x24 Free Part 2B_226: -32985762
+      Bullet 24x24 Free Part 2B_227: -1363213758
+      Bullet 24x24 Free Part 2B_228: 1420116667
+      Bullet 24x24 Free Part 2B_229: -1042036626
+      Bullet 24x24 Free Part 2B_23: -1714281691
+      Bullet 24x24 Free Part 2B_230: -1936590901
+      Bullet 24x24 Free Part 2B_231: -1255807674
+      Bullet 24x24 Free Part 2B_232: 1133989316
+      Bullet 24x24 Free Part 2B_233: 1009542285
+      Bullet 24x24 Free Part 2B_234: -1988846758
+      Bullet 24x24 Free Part 2B_235: -1694811990
+      Bullet 24x24 Free Part 2B_236: -1896397196
+      Bullet 24x24 Free Part 2B_237: 588159475
+      Bullet 24x24 Free Part 2B_238: -1420991357
+      Bullet 24x24 Free Part 2B_239: 627750699
+      Bullet 24x24 Free Part 2B_24: -636331589
+      Bullet 24x24 Free Part 2B_240: -1093852627
+      Bullet 24x24 Free Part 2B_241: 709476836
+      Bullet 24x24 Free Part 2B_242: -261721465
+      Bullet 24x24 Free Part 2B_243: 1437428608
+      Bullet 24x24 Free Part 2B_244: 945850144
+      Bullet 24x24 Free Part 2B_245: 2074581856
+      Bullet 24x24 Free Part 2B_246: 742139987
+      Bullet 24x24 Free Part 2B_247: -2021320817
+      Bullet 24x24 Free Part 2B_248: -599658426
+      Bullet 24x24 Free Part 2B_249: -1088995379
+      Bullet 24x24 Free Part 2B_25: 930123693
+      Bullet 24x24 Free Part 2B_250: -730309060
+      Bullet 24x24 Free Part 2B_251: -713861329
+      Bullet 24x24 Free Part 2B_252: -1480908397
+      Bullet 24x24 Free Part 2B_253: -2054153047
+      Bullet 24x24 Free Part 2B_254: 2017123840
+      Bullet 24x24 Free Part 2B_255: 1265050931
+      Bullet 24x24 Free Part 2B_256: 662200170
+      Bullet 24x24 Free Part 2B_257: 135569460
+      Bullet 24x24 Free Part 2B_258: -28694008
+      Bullet 24x24 Free Part 2B_259: 168377967
+      Bullet 24x24 Free Part 2B_26: 1114723758
+      Bullet 24x24 Free Part 2B_260: -221495136
+      Bullet 24x24 Free Part 2B_261: 1717902617
+      Bullet 24x24 Free Part 2B_262: 2046777115
+      Bullet 24x24 Free Part 2B_263: 1860945397
+      Bullet 24x24 Free Part 2B_264: 149742298
+      Bullet 24x24 Free Part 2B_265: -2056748607
+      Bullet 24x24 Free Part 2B_266: -1077921118
+      Bullet 24x24 Free Part 2B_267: 832926240
+      Bullet 24x24 Free Part 2B_268: -978697275
+      Bullet 24x24 Free Part 2B_269: 35192391
+      Bullet 24x24 Free Part 2B_27: -530631198
+      Bullet 24x24 Free Part 2B_270: 1608385982
+      Bullet 24x24 Free Part 2B_271: -208994513
+      Bullet 24x24 Free Part 2B_272: 926348371
+      Bullet 24x24 Free Part 2B_273: -51703053
+      Bullet 24x24 Free Part 2B_274: 1301174836
+      Bullet 24x24 Free Part 2B_275: 1225080697
+      Bullet 24x24 Free Part 2B_276: 1842414365
+      Bullet 24x24 Free Part 2B_277: -684399274
+      Bullet 24x24 Free Part 2B_278: -1377519733
+      Bullet 24x24 Free Part 2B_279: 1684214679
+      Bullet 24x24 Free Part 2B_28: -1939608184
+      Bullet 24x24 Free Part 2B_280: -1969386100
+      Bullet 24x24 Free Part 2B_281: -1405136014
+      Bullet 24x24 Free Part 2B_282: -367187428
+      Bullet 24x24 Free Part 2B_283: 411272674
+      Bullet 24x24 Free Part 2B_284: -837696052
+      Bullet 24x24 Free Part 2B_285: 1360087212
+      Bullet 24x24 Free Part 2B_286: 332377354
+      Bullet 24x24 Free Part 2B_287: -912512829
+      Bullet 24x24 Free Part 2B_288: 750788050
+      Bullet 24x24 Free Part 2B_289: 32354023
+      Bullet 24x24 Free Part 2B_29: 1904889618
+      Bullet 24x24 Free Part 2B_290: 298632760
+      Bullet 24x24 Free Part 2B_291: 1596041144
+      Bullet 24x24 Free Part 2B_292: -1201574436
+      Bullet 24x24 Free Part 2B_293: -2085694302
+      Bullet 24x24 Free Part 2B_294: 2010419283
+      Bullet 24x24 Free Part 2B_295: -572465108
+      Bullet 24x24 Free Part 2B_296: -2064752682
+      Bullet 24x24 Free Part 2B_297: -285011109
+      Bullet 24x24 Free Part 2B_298: 531467505
+      Bullet 24x24 Free Part 2B_299: 156457029
+      Bullet 24x24 Free Part 2B_3: 1902551099
+      Bullet 24x24 Free Part 2B_30: 1751309585
+      Bullet 24x24 Free Part 2B_300: -2096273901
+      Bullet 24x24 Free Part 2B_301: 2082061953
+      Bullet 24x24 Free Part 2B_302: 1727576327
+      Bullet 24x24 Free Part 2B_303: -935171926
+      Bullet 24x24 Free Part 2B_304: 2029605120
+      Bullet 24x24 Free Part 2B_305: 936181309
+      Bullet 24x24 Free Part 2B_306: 1321577700
+      Bullet 24x24 Free Part 2B_307: -1114171261
+      Bullet 24x24 Free Part 2B_308: 473653250
+      Bullet 24x24 Free Part 2B_309: 1361443471
+      Bullet 24x24 Free Part 2B_31: 644664018
+      Bullet 24x24 Free Part 2B_310: -8075260
+      Bullet 24x24 Free Part 2B_311: 532054254
+      Bullet 24x24 Free Part 2B_312: 508601807
+      Bullet 24x24 Free Part 2B_313: 1954591112
+      Bullet 24x24 Free Part 2B_314: -1289513018
+      Bullet 24x24 Free Part 2B_315: 1571687921
+      Bullet 24x24 Free Part 2B_316: 1063368639
+      Bullet 24x24 Free Part 2B_317: -1968182748
+      Bullet 24x24 Free Part 2B_318: 684807693
+      Bullet 24x24 Free Part 2B_319: 1909485907
+      Bullet 24x24 Free Part 2B_32: -711034531
+      Bullet 24x24 Free Part 2B_320: 1890155423
+      Bullet 24x24 Free Part 2B_321: -1924258542
+      Bullet 24x24 Free Part 2B_322: -80705300
+      Bullet 24x24 Free Part 2B_323: 1910682023
+      Bullet 24x24 Free Part 2B_324: -1378419396
+      Bullet 24x24 Free Part 2B_325: -337540498
+      Bullet 24x24 Free Part 2B_326: -1100154963
+      Bullet 24x24 Free Part 2B_327: 75992639
+      Bullet 24x24 Free Part 2B_328: 175530102
+      Bullet 24x24 Free Part 2B_329: -375050286
+      Bullet 24x24 Free Part 2B_33: -1329049910
+      Bullet 24x24 Free Part 2B_330: 1908413291
+      Bullet 24x24 Free Part 2B_331: 784650707
+      Bullet 24x24 Free Part 2B_332: 867924641
+      Bullet 24x24 Free Part 2B_333: -822722960
+      Bullet 24x24 Free Part 2B_334: 217005807
+      Bullet 24x24 Free Part 2B_335: 859899668
+      Bullet 24x24 Free Part 2B_336: -1358347012
+      Bullet 24x24 Free Part 2B_337: -1017506336
+      Bullet 24x24 Free Part 2B_338: 751901928
+      Bullet 24x24 Free Part 2B_339: -2068244117
+      Bullet 24x24 Free Part 2B_34: 785255269
+      Bullet 24x24 Free Part 2B_340: 848110618
+      Bullet 24x24 Free Part 2B_341: 1253848286
+      Bullet 24x24 Free Part 2B_342: -5076350
+      Bullet 24x24 Free Part 2B_343: 1774206891
+      Bullet 24x24 Free Part 2B_344: 352359802
+      Bullet 24x24 Free Part 2B_345: 1513480319
+      Bullet 24x24 Free Part 2B_346: -223346707
+      Bullet 24x24 Free Part 2B_347: -846522912
+      Bullet 24x24 Free Part 2B_348: 1787825809
+      Bullet 24x24 Free Part 2B_349: 2017962216
+      Bullet 24x24 Free Part 2B_35: 1800151395
+      Bullet 24x24 Free Part 2B_350: -1387936752
+      Bullet 24x24 Free Part 2B_36: -1656476118
+      Bullet 24x24 Free Part 2B_37: -1826558726
+      Bullet 24x24 Free Part 2B_38: -1308728860
+      Bullet 24x24 Free Part 2B_39: 1663787699
+      Bullet 24x24 Free Part 2B_4: -1338049629
+      Bullet 24x24 Free Part 2B_40: -1848996273
+      Bullet 24x24 Free Part 2B_41: -982262847
+      Bullet 24x24 Free Part 2B_42: 351016983
+      Bullet 24x24 Free Part 2B_43: 1162816406
+      Bullet 24x24 Free Part 2B_44: -1269176729
+      Bullet 24x24 Free Part 2B_45: 1241063459
+      Bullet 24x24 Free Part 2B_46: -755864742
+      Bullet 24x24 Free Part 2B_47: -1096733199
+      Bullet 24x24 Free Part 2B_48: -679399324
+      Bullet 24x24 Free Part 2B_49: 1520908180
+      Bullet 24x24 Free Part 2B_5: 912931752
+      Bullet 24x24 Free Part 2B_50: 360274911
+      Bullet 24x24 Free Part 2B_51: -1338275989
+      Bullet 24x24 Free Part 2B_52: 1985566047
+      Bullet 24x24 Free Part 2B_53: 200766653
+      Bullet 24x24 Free Part 2B_54: -440896889
+      Bullet 24x24 Free Part 2B_55: -1428579769
+      Bullet 24x24 Free Part 2B_56: 649322034
+      Bullet 24x24 Free Part 2B_57: -540369623
+      Bullet 24x24 Free Part 2B_58: -1705798452
+      Bullet 24x24 Free Part 2B_59: -1552357148
+      Bullet 24x24 Free Part 2B_6: 965555649
+      Bullet 24x24 Free Part 2B_60: -1799623951
+      Bullet 24x24 Free Part 2B_61: -982710537
+      Bullet 24x24 Free Part 2B_62: 1260084287
+      Bullet 24x24 Free Part 2B_63: -570705243
+      Bullet 24x24 Free Part 2B_64: -837770981
+      Bullet 24x24 Free Part 2B_65: -664628255
+      Bullet 24x24 Free Part 2B_66: 1802686450
+      Bullet 24x24 Free Part 2B_67: 83017433
+      Bullet 24x24 Free Part 2B_68: -1826056551
+      Bullet 24x24 Free Part 2B_69: -1820939799
+      Bullet 24x24 Free Part 2B_7: -902012813
+      Bullet 24x24 Free Part 2B_70: 776643870
+      Bullet 24x24 Free Part 2B_71: 78927035
+      Bullet 24x24 Free Part 2B_72: 1433503374
+      Bullet 24x24 Free Part 2B_73: -933097331
+      Bullet 24x24 Free Part 2B_74: 1877175982
+      Bullet 24x24 Free Part 2B_75: -972684282
+      Bullet 24x24 Free Part 2B_76: 2048797783
+      Bullet 24x24 Free Part 2B_77: 770531599
+      Bullet 24x24 Free Part 2B_78: 1524713932
+      Bullet 24x24 Free Part 2B_79: 46646493
+      Bullet 24x24 Free Part 2B_8: -1329147413
+      Bullet 24x24 Free Part 2B_80: 1189453180
+      Bullet 24x24 Free Part 2B_81: -1377760917
+      Bullet 24x24 Free Part 2B_82: 1729242154
+      Bullet 24x24 Free Part 2B_83: 260989010
+      Bullet 24x24 Free Part 2B_84: 274354798
+      Bullet 24x24 Free Part 2B_85: -451956133
+      Bullet 24x24 Free Part 2B_86: -1752487936
+      Bullet 24x24 Free Part 2B_87: -1332847815
+      Bullet 24x24 Free Part 2B_88: 1962041281
+      Bullet 24x24 Free Part 2B_89: -1437488481
+      Bullet 24x24 Free Part 2B_9: 1575131342
+      Bullet 24x24 Free Part 2B_90: 1378179335
+      Bullet 24x24 Free Part 2B_91: -914399509
+      Bullet 24x24 Free Part 2B_92: 1627232669
+      Bullet 24x24 Free Part 2B_93: 2068325707
+      Bullet 24x24 Free Part 2B_94: -1151163291
+      Bullet 24x24 Free Part 2B_95: 1450061928
+      Bullet 24x24 Free Part 2B_96: -454743750
+      Bullet 24x24 Free Part 2B_97: 747642489
+      Bullet 24x24 Free Part 2B_98: 554759636
+      Bullet 24x24 Free Part 2B_99: 831880511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
