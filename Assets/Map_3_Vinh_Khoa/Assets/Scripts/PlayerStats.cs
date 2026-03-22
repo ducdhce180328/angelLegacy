@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class PlayerStats : MonoBehaviour
     [Header("Mana")]
     [SerializeField] private int maxMana = 50;
     [SerializeField] private int currentMana = 50;
+
+    [Header("Respawn")]
+    [SerializeField] private Transform startCheckpoint;
+    [SerializeField] private float respawnDelay = 1.2f;
 
     [Header("Mana Regeneration")]
     [SerializeField] private bool enableManaRegen = true;
@@ -26,6 +31,8 @@ public class PlayerStats : MonoBehaviour
     private PlayerUIManager ui;
     private Animator animator;
     private Rigidbody2D rb;
+    private PlayerMovement playerMovement;
+    private PlayerCombat playerCombat;
     private bool isDead;
     private float manaRegenTimer;
 
@@ -37,6 +44,9 @@ public class PlayerStats : MonoBehaviour
         ui = FindFirstObjectByType<PlayerUIManager>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        playerMovement = GetComponent<PlayerMovement>();
+        playerCombat = GetComponent<PlayerCombat>();
 
         UpdateHealthUI();
         UpdateManaUI();
@@ -163,7 +173,15 @@ public class PlayerStats : MonoBehaviour
 
     private void PlayGetHit()
     {
-        if (animator == null || isDead)
+        if (isDead)
+            return;
+
+        if (playerCombat != null)
+        {
+            playerCombat.OnTakeHitInterrupt();
+        }
+
+        if (animator == null)
             return;
 
         animator.ResetTrigger("GetHit");
@@ -184,6 +202,16 @@ public class PlayerStats : MonoBehaviour
             rb.gravityScale = 0f;
         }
 
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = false;
+        }
+
+        if (playerCombat != null)
+        {
+            playerCombat.enabled = false;
+        }
+
         if (animator != null)
         {
             animator.ResetTrigger("Attack");
@@ -192,6 +220,49 @@ public class PlayerStats : MonoBehaviour
             animator.ResetTrigger("DeathTrigger");
             animator.SetTrigger("DeathTrigger");
         }
+
+        StartCoroutine(RespawnCoroutine());
+    }
+
+
+    private IEnumerator RespawnCoroutine()
+    {
+        yield return new WaitForSeconds(respawnDelay);
+
+        if (startCheckpoint != null)
+        {
+            transform.position = startCheckpoint.position;
+        }
+
+        currentHealth = maxHealth;
+        currentMana = maxMana;
+        isDead = false;
+        manaRegenTimer = 0f;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.gravityScale = 3f;
+        }
+
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
+
+        if (playerCombat != null)
+        {
+            playerCombat.enabled = true;
+        }
+
+        if (animator != null)
+        {
+            animator.Rebind();
+            animator.Update(0f);
+        }
+
+        UpdateHealthUI();
+        UpdateManaUI();
     }
 
     private void UpdateHealthUI()

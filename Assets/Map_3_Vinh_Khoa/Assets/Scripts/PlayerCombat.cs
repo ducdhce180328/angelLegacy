@@ -45,6 +45,7 @@ public class PlayerCombat : MonoBehaviour
     private PlayerStats playerStats;
     private SkillUI skillUI;
     private Rigidbody2D rb;
+    private Collider2D bodyCollider;
 
     private float nextAttackTime;
     private float nextSkill1Time;
@@ -76,6 +77,7 @@ public class PlayerCombat : MonoBehaviour
         playerStats = GetComponent<PlayerStats>();
         skillUI = FindFirstObjectByType<SkillUI>();
         rb = GetComponent<Rigidbody2D>();
+        bodyCollider = GetComponent<Collider2D>();
 
         if (rb != null)
         {
@@ -221,37 +223,100 @@ public class PlayerCombat : MonoBehaviour
         animator.SetTrigger("Skill1");
     }
 
+    private Vector2 GetColliderCenterAtPosition(Vector2 objectPosition)
+    {
+        if (bodyCollider == null)
+            return objectPosition;
+
+        Vector2 currentObjectPosition = rb != null ? rb.position : (Vector2)transform.position;
+        Vector2 centerOffset = (Vector2)bodyCollider.bounds.center - currentObjectPosition;
+
+        return objectPosition + centerOffset;
+    }
+
     private void TryTeleport()
     {
         if (Time.time < nextTeleportTime)
             return;
 
-        if (Camera.main == null)
+        if (Camera.main == null || bodyCollider == null)
             return;
 
         Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorld.z = 0f;
 
         Vector2 currentPosition = rb != null ? rb.position : (Vector2)transform.position;
-        Vector2 rawDirection = (Vector2)(mouseWorld - transform.position);
+        Vector2 rawDirection = (Vector2)(mouseWorld - (Vector3)currentPosition);
 
         if (rawDirection.sqrMagnitude <= 0.001f)
             return;
 
         Vector2 direction = rawDirection.normalized;
-
         FaceToDirection(direction);
 
         float distanceToMouse = Vector2.Distance(currentPosition, mouseWorld);
-        float finalDistance = Mathf.Min(distanceToMouse, teleportDistance);
-
-        Vector2 targetPosition = currentPosition + direction * finalDistance;
+        float desiredDistance = Mathf.Min(distanceToMouse, teleportDistance);
+        float safeDistance = desiredDistance;
 
         if (preventTeleportIntoWall)
         {
-            Collider2D hit = Physics2D.OverlapCircle(targetPosition, teleportCheckRadius, teleportBlockLayer);
-            if (hit != null)
-                return;
+            RaycastHit2D[] hits = new RaycastHit2D[10];
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.useLayerMask = true;
+            filter.layerMask = teleportBlockLayer;
+            filter.useTriggers = false;
+
+            int hitCount = bodyCollider.Cast(direction, filter, hits, desiredDistance);
+
+            if (hitCount > 0)
+            {
+                float nearestDistance = desiredDistance;
+
+                for (int i = 0; i < hitCount; i++)
+                {
+                    if (hits[i].collider != null && hits[i].distance < nearestDistance)
+                    {
+                        nearestDistance = hits[i].distance;
+                    }
+                }
+
+                safeDistance = Mathf.Max(0f, nearestDistance - 0.05f);
+            }
+        }
+
+        if (safeDistance <= 0.05f)
+            return;
+
+        Vector2 targetPosition = currentPosition + direction * safeDistance;
+
+        if (preventTeleportIntoWall)
+        {
+            Vector2 checkSize = bodyCollider.bounds.size * 0.95f;
+            float safetyStep = 0.1f;
+            int safetyLoop = 12;
+
+            while (safetyLoop > 0)
+            {
+                Vector2 overlapCenter = GetColliderCenterAtPosition(targetPosition);
+
+                Collider2D blocked = Physics2D.OverlapBox(
+                    overlapCenter,
+                    checkSize,
+                    0f,
+                    teleportBlockLayer
+                );
+
+                if (blocked == null)
+                    break;
+
+                safeDistance -= safetyStep;
+
+                if (safeDistance <= 0.05f)
+                    return;
+
+                targetPosition = currentPosition + direction * safeDistance;
+                safetyLoop--;
+            }
         }
 
         if (rb != null)
@@ -341,6 +406,31 @@ public class PlayerCombat : MonoBehaviour
         return isCastingSkill;
     }
 
+    public void OnTakeHitInterrupt()
+    {
+        isAttacking = false;
+        hasFiredThisAttack = false;
+        useSpreadShotForThisAttack = false;
+
+        isCastingSkill = false;
+        hasAppliedSkill1Damage = false;
+
+        isTeleportHoldingPlayer = false;
+        keepPlayerFloatingUntilSkillEnds = false;
+        teleportFallEndTime = 0f;
+
+        if (rb != null)
+        {
+            rb.gravityScale = originalGravityScale;
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+        }
+
+        if (animator != null)
+        {
+            animator.ResetTrigger("Attack");
+            animator.ResetTrigger("Skill1");
+        }
+    }
     public void FireBasicProjectile()
     {
         if (hasFiredThisAttack)
