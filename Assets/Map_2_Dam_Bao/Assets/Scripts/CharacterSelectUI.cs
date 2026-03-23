@@ -11,12 +11,20 @@ public class CharacterSelectUI : MonoBehaviour
     [Header("Scene Name")]
     public string gameSceneName = "scene2";
 
+    [Header("Visual Effect")]
+    public CharacterSelectVisual characterSelectVisual;
+
     public void SelectKnight()
     {
         if (CharacterSelectionManager.Instance != null)
         {
             CharacterSelectionManager.Instance.SelectCharacter(knightPrefab);
             Debug.Log("Da chon Knight");
+
+            if (characterSelectVisual != null)
+            {
+                characterSelectVisual.HighlightKnight();
+            }
         }
     }
 
@@ -26,6 +34,11 @@ public class CharacterSelectUI : MonoBehaviour
         {
             CharacterSelectionManager.Instance.SelectCharacter(magePrefab);
             Debug.Log("Da chon Mage");
+
+            if (characterSelectVisual != null)
+            {
+                characterSelectVisual.HighlightMage();
+            }
         }
     }
 
@@ -35,6 +48,11 @@ public class CharacterSelectUI : MonoBehaviour
         {
             CharacterSelectionManager.Instance.SelectCharacter(roguePrefab);
             Debug.Log("Da chon Rogue");
+
+            if (characterSelectVisual != null)
+            {
+                characterSelectVisual.HighlightRogue();
+            }
         }
     }
 

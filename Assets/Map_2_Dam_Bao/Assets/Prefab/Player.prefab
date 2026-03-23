@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 5795340854369692502}
   - component: {fileID: 1910783172498977419}
   - component: {fileID: 5916272709381024617}
+  - component: {fileID: 1751715162359179047}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -418,3 +419,53 @@ MonoBehaviour:
   attackEffectPrefab: {fileID: 4427364881180877752, guid: 6e84aec7e9d1e374c8b1c8f67baad7e1, type: 3}
   offset: {x: 0, y: 1.6, z: 0}
   lifeTime: 0.8
+--- !u!114 &1751715162359179047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236034935864205579}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b036c9650d10f40a4a34cd3c7c0e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  moveSpeed: 5
+  jumpForce: 12
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  climbSpeed: 4
+  normalGravity: 3
+  ladderExitOffsetY: 0.6
+  slideSpeed: 8
+  slideDuration: 0.2
+  slideCooldown: 1
+  isHurt: 0
+  isDead: 0
+  attackPoint: {fileID: 0}
+  attackRadius: 0.6
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  normalAttackDamage: 10
+  normalAttackDuration: 0.35
+  skillDamage: 20
+  skillManaCost: 5
+  skillFirePoint: {fileID: 0}
+  skillProjectilePrefab: {fileID: 0}
+  skillProjectileSpeed: 8
+  hasUnlockedSkillL: 0
+  skillLCooldown: 10
+  skillLDamage: 30
+  skillLFirePoint: {fileID: 0}
+  skillLProjectilePrefab: {fileID: 0}
+  skillLProjectileSpeed: 8
+  gamepadJumpButton: 330
+  gamepadNormalAttackButton: 332
+  gamepadSkillKButton: 331
+  gamepadSkillLButton: 333
+  gamepadSlideButton: 335
