@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5194721143604723372}
   - component: {fileID: 9086115669316651784}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BarBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 848153203
-  m_SortingLayer: 0
+  m_SortingLayerID: 948803733
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 1350888f0e2add44cbe1bb949713c918, type: 3}
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 2692704516879624298}
   - component: {fileID: 91479151652840434}
   - component: {fileID: 6243799846787677049}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Plant2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ MonoBehaviour:
   attackCooldown: 1.2
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   pushBackSpeed: 4
   pushBackDuration: 0.15
 --- !u!114 &6243799846787677049
@@ -375,7 +375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 666319376354530645}
   - component: {fileID: 137150668477390026}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BarFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -442,8 +442,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2013540015
-  m_SortingLayer: 0
+  m_SortingLayerID: -1403393229
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: de3fe5d3cac7351469579516d602e2da, type: 3}
@@ -466,7 +466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3706793809513976544}
   - component: {fileID: 4606910150872281572}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: HealthBarRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

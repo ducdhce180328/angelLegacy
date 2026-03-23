@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8414269606018294742}
   - component: {fileID: 5532020136593719291}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: HealthBarRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.35, y: 1.11, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3158212368253980108}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 53819494593629847}
   - component: {fileID: 845593623170532810}
   - component: {fileID: 6254977878009508915}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Plant3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ MonoBehaviour:
   attackCooldown: 2
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   pushBackSpeed: 4
   pushBackDuration: 0.15
 --- !u!114 &6254977878009508915
@@ -312,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3158212368253980108}
   - component: {fileID: 5688933724459376789}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BarBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +360,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -379,8 +379,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 848153203
-  m_SortingLayer: 0
+  m_SortingLayerID: -1403393229
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 1350888f0e2add44cbe1bb949713c918, type: 3}
@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6307870601361931272}
   - component: {fileID: 8523946908895172043}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BarFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -470,8 +470,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2013540015
-  m_SortingLayer: 0
+  m_SortingLayerID: -1403393229
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: de3fe5d3cac7351469579516d602e2da, type: 3}

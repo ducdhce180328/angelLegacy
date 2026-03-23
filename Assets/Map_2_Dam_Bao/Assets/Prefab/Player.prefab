@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 5795340854369692502}
   - component: {fileID: 1910783172498977419}
   - component: {fileID: 5916272709381024617}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ MonoBehaviour:
   attackRange: 0.7
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   normalAttackDamage: 15
   skillManaDamage: 40
   attack1Cooldown: 0.5
@@ -325,7 +325,7 @@ MonoBehaviour:
   groundCheckRadius: 0.15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8
   climbSpeed: 4
   normalGravity: 3
   ladderExitOffsetY: 0.6
