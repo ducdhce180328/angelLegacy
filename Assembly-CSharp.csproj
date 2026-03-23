@@ -156,8 +156,8 @@
     <Compile Include="Assets\Map_2_Dam_Bao\Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs" />
     <Compile Include="Assets\Map_2_Dam_Bao\Assets\Scripts\CheckpointManager.cs" />
-    <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Spript\PlayerController.cs" />
+    <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Spript\CameraFollow.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />

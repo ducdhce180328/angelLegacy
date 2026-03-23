@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2859781906327573166}
   - component: {fileID: 4181651518916198672}
   - component: {fileID: 7017007938764582952}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Plant1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1403393229
-  m_SortingLayer: 2
+  m_SortingLayerID: 2132900205
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2034679757, guid: 9979eb0209fe99145b56e0d558f605bc, type: 3}
@@ -227,7 +227,7 @@ MonoBehaviour:
   attackCooldown: 1.2
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   pushBackSpeed: 4
   pushBackDuration: 0.15
 --- !u!114 &7017007938764582952
@@ -253,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1393094365306222238}
   - component: {fileID: 5856965557379940361}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BarFill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -320,8 +320,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2013540015
-  m_SortingLayer: 0
+  m_SortingLayerID: 217753059
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: de3fe5d3cac7351469579516d602e2da, type: 3}
@@ -344,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2720175432720567626}
   - component: {fileID: 7783269626855281638}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: BarBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +392,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -411,8 +411,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 848153203
-  m_SortingLayer: 0
+  m_SortingLayerID: -1403393229
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 1350888f0e2add44cbe1bb949713c918, type: 3}
@@ -435,7 +435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6556167094381644746}
   - component: {fileID: 7603202607307528748}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: HealthBarRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
