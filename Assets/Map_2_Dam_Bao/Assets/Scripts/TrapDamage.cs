@@ -19,10 +19,8 @@ public class TrapDamage : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            Health playerHealth = other.GetComponentInParent<Health>();
-            if (playerHealth != null && !playerHealth.isDead)
+            if (PlayerCompatibilityUtility.TryTakeDamage(other, damage))
             {
-                playerHealth.TakeDamage(damage);
                 cooldownTimer = damageCooldown;
             }
         }

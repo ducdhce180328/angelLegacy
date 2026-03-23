@@ -9,9 +9,7 @@ public class GameOverUI : MonoBehaviour
     public GameObject gameOverPanel;
 
     private bool isShown = false;
-    private PlayerController playerController;
-    private PlayerCombat playerCombat;
-    private Rigidbody2D rb;
+    private GameObject player;
 
     void Start()
     {
@@ -23,7 +21,7 @@ public class GameOverUI : MonoBehaviour
     {
         FindPlayerIfNeeded();
 
-        if (!isShown && playerHealth != null && playerHealth.isDead)
+        if (!isShown && PlayerCompatibilityUtility.IsDead(player))
         {
             isShown = true;
             StartCoroutine(ShowGameOverAfterDelay());
@@ -32,7 +30,7 @@ public class GameOverUI : MonoBehaviour
 
     IEnumerator ShowGameOverAfterDelay()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSecondsRealtime(1.5f);
 
         if (gameOverPanel != null)
             gameOverPanel.SetActive(true);
@@ -61,54 +59,18 @@ public class GameOverUI : MonoBehaviour
     {
         FindPlayerIfNeeded();
 
-        if (playerHealth == null) return;
-
-        playerHealth.transform.position = CheckpointManager.respawnPosition;
-
-        playerHealth.isDead = false;
-        playerHealth.currentHP = playerHealth.maxHP;
-
-        if (playerMana != null)
-            playerMana.currentMana = playerMana.maxMana;
-
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
-
-        if (playerController != null)
-            playerController.enabled = true;
-
-        if (playerCombat != null)
-            playerCombat.enabled = true;
-
-        Animator anim = playerHealth.GetComponent<Animator>();
-        if (anim != null)
-        {
-            anim.ResetTrigger("Death");
-            anim.Play("Idle");
-        }
+        PlayerCompatibilityUtility.Respawn(player, CheckpointManager.respawnPosition);
     }
 
     void FindPlayerIfNeeded()
     {
-        if (playerHealth != null && playerMana != null && playerController != null && playerCombat != null && rb != null)
+        if (player != null)
             return;
 
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerCompatibilityUtility.FindPlayer();
         if (player == null) return;
 
-        if (playerHealth == null)
-            playerHealth = player.GetComponent<Health>();
-
-        if (playerMana == null)
-            playerMana = player.GetComponent<Mana>();
-
-        if (playerController == null)
-            playerController = player.GetComponent<PlayerController>();
-
-        if (playerCombat == null)
-            playerCombat = player.GetComponent<PlayerCombat>();
-
-        if (rb == null)
-            rb = player.GetComponent<Rigidbody2D>();
+        playerHealth = player.GetComponent<Health>();
+        playerMana = player.GetComponent<Mana>();
     }
 }

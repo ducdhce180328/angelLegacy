@@ -9,34 +9,33 @@ public class PlayerUI : MonoBehaviour
     public Slider hpSlider;
     public Slider manaSlider;
 
+    private GameObject player;
+
     void Update()
     {
         FindPlayerIfNeeded();
 
-        if (playerHealth != null && hpSlider != null)
+        if (hpSlider != null && PlayerCompatibilityUtility.TryGetHealthValues(player, out int currentHP, out int maxHP))
         {
-            hpSlider.maxValue = playerHealth.maxHP;
-            hpSlider.value = playerHealth.currentHP;
+            hpSlider.maxValue = maxHP;
+            hpSlider.value = currentHP;
         }
 
-        if (playerMana != null && manaSlider != null)
+        if (manaSlider != null && PlayerCompatibilityUtility.TryGetManaValues(player, out int currentMana, out int maxMana))
         {
-            manaSlider.maxValue = playerMana.maxMana;
-            manaSlider.value = playerMana.currentMana;
+            manaSlider.maxValue = maxMana;
+            manaSlider.value = currentMana;
         }
     }
 
     void FindPlayerIfNeeded()
     {
-        if (playerHealth != null && playerMana != null) return;
+        if (player != null) return;
 
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerCompatibilityUtility.FindPlayer();
         if (player == null) return;
 
-        if (playerHealth == null)
-            playerHealth = player.GetComponent<Health>();
-
-        if (playerMana == null)
-            playerMana = player.GetComponent<Mana>();
+        playerHealth = player.GetComponent<Health>();
+        playerMana = player.GetComponent<Mana>();
     }
 }

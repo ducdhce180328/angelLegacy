@@ -70,6 +70,7 @@
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Spript\EnemyHealth.cs" />
     <Compile Include="Assets\Map_2_Dam_Bao\Assets\Scripts\ChestUpgrade.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\code_move_map\EnemyCompatibilityUtility.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Spript\UnlockGateOnDeath.cs" />
@@ -90,6 +91,8 @@
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Map_2_Dam_Bao\Assets\Scripts\LegacyPlayerStats.cs" />
+    <Compile Include="Assets\code_move_map\PlayerCompatibilityUtility.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Cainos\Pixel Art Platformer - Village Props\Script\Elevator.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Map_1_Duc_Khang\Assets\Spript\EnemyPatrol.cs" />

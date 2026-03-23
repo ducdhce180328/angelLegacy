@@ -8,16 +8,9 @@ public class ManaItem : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
 
-        Mana playerMana = other.GetComponentInParent<Mana>();
-        Health playerHealth = other.GetComponentInParent<Health>();
-
-        if (playerMana != null && playerHealth != null && !playerHealth.isDead)
+        if (PlayerCompatibilityUtility.TryRestoreMana(other, manaAmount))
         {
-            if (playerMana.currentMana < playerMana.maxMana)
-            {
-                playerMana.RestoreMana(manaAmount);
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 }

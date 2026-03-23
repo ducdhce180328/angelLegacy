@@ -34,16 +34,10 @@ public class SkillLProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        EnemyHealth enemy = collision.GetComponent<EnemyHealth>();
-
-        if (enemy == null)
+        Component receiver = EnemyCompatibilityUtility.GetDamageReceiver(collision);
+        if (receiver != null)
         {
-            enemy = collision.GetComponentInParent<EnemyHealth>();
-        }
-
-        if (enemy != null)
-        {
-            enemy.TakeDamage(damage);
+            EnemyCompatibilityUtility.ApplyDamageWithKnockback(receiver, damage, transform.position);
             Destroy(gameObject);
             return;
         }

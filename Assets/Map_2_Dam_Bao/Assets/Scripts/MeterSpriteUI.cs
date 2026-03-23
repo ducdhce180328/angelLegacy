@@ -22,6 +22,8 @@ public class MeterSpriteUI : MonoBehaviour
     public TMP_Text hpValueText;
     public TMP_Text manaValueText;
 
+    private GameObject player;
+
     void Update()
     {
         FindPlayerIfNeeded();
@@ -31,23 +33,20 @@ public class MeterSpriteUI : MonoBehaviour
 
     void FindPlayerIfNeeded()
     {
-        if (playerHealth != null && playerMana != null) return;
+        if (player != null) return;
 
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerCompatibilityUtility.FindPlayer();
         if (player == null) return;
 
-        if (playerHealth == null)
-            playerHealth = player.GetComponent<Health>();
-
-        if (playerMana == null)
-            playerMana = player.GetComponent<Mana>();
+        playerHealth = player.GetComponent<Health>();
+        playerMana = player.GetComponent<Mana>();
     }
 
     void UpdateHP()
     {
-        if (playerHealth == null) return;
+        if (!PlayerCompatibilityUtility.TryGetHealthValues(player, out int currentHP, out int maxHP) || maxHP <= 0) return;
 
-        float percent = (float)playerHealth.currentHP / playerHealth.maxHP;
+        float percent = (float)currentHP / maxHP;
 
         if (hpFillImage != null && hpSprites != null && hpSprites.Length > 0)
         {
@@ -57,15 +56,15 @@ public class MeterSpriteUI : MonoBehaviour
 
         if (hpValueText != null)
         {
-            hpValueText.text = playerHealth.currentHP + " / " + playerHealth.maxHP;
+            hpValueText.text = currentHP + " / " + maxHP;
         }
     }
 
     void UpdateMana()
     {
-        if (playerMana == null) return;
+        if (!PlayerCompatibilityUtility.TryGetManaValues(player, out int currentMana, out int maxMana) || maxMana <= 0) return;
 
-        float percent = (float)playerMana.currentMana / playerMana.maxMana;
+        float percent = (float)currentMana / maxMana;
 
         if (manaFillImage != null && manaSprites != null && manaSprites.Length > 0)
         {
@@ -75,7 +74,7 @@ public class MeterSpriteUI : MonoBehaviour
 
         if (manaValueText != null)
         {
-            manaValueText.text = playerMana.currentMana + " / " + playerMana.maxMana;
+            manaValueText.text = currentMana + " / " + maxMana;
         }
     }
 

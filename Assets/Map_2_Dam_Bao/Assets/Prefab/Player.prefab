@@ -466,6 +466,6 @@ MonoBehaviour:
   skillLProjectileSpeed: 8
   gamepadJumpButton: 330
   gamepadNormalAttackButton: 332
-  gamepadSkillKButton: 331
-  gamepadSkillLButton: 333
+  gamepadSkillKButton: 333
+  gamepadSkillLButton: 331
   gamepadSlideButton: 335

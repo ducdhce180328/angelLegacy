@@ -8,7 +8,13 @@ public class CameraFollow : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (target == null) return;
+        if (target == null)
+        {
+            GameObject player = PlayerCompatibilityUtility.FindPlayer();
+            if (player == null) return;
+
+            target = player.transform;
+        }
 
         Vector3 desiredPosition = target.position + offset;
         Vector3 smoothPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);

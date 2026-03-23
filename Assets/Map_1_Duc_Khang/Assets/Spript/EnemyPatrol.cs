@@ -1,7 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour
 {
+    private const float PlayerRefreshInterval = 0.5f;
+    private const float PatrolPointOverlapThreshold = 0.05f;
+    private const float FallbackPatrolDistance = 1.5f;
+
     [Header("Patrol")]
     public float patrolSpeed = 2f;
     public Transform pointA;
@@ -23,24 +27,29 @@ public class EnemyPatrol : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
     private EnemyHealth enemyHealth;
+    private Vector2 fallbackPointAPosition;
+    private Vector2 fallbackPointBPosition;
+    private bool useFallbackPatrolPoints;
+    private bool moveTowardsFallbackPointB;
+    private float playerRefreshTimer;
 
     private float attackTimer;
     private bool isDead;
     private bool isAttacking;
+    private bool isKnockedBack;
+    private float knockbackTimer;
+    private float knockbackDirection;
+    private float knockbackSpeed;
 
     private void Start()
     {
-        targetPoint = pointB;
         originalScale = transform.localScale;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         enemyHealth = GetComponent<EnemyHealth>();
 
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null)
-        {
-            player = playerObj.transform;
-        }
+        InitializePatrolRoute();
+        RefreshPlayerReference(true);
 
         if (rb != null)
         {
@@ -62,6 +71,14 @@ public class EnemyPatrol : MonoBehaviour
             return;
         }
 
+        if (isKnockedBack)
+        {
+            HandleKnockback();
+            UpdateAnimation(0f);
+            return;
+        }
+
+        RefreshPlayerReference();
         attackTimer += Time.deltaTime;
 
         if (isAttacking)
@@ -71,42 +88,42 @@ public class EnemyPatrol : MonoBehaviour
             return;
         }
 
-        if (pointA == null || pointB == null)
+        if (!HasPatrolRoute())
         {
             StopMoving();
             UpdateAnimation(0f);
             return;
         }
 
-       if (player != null)
-{
-    float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-    float verticalDistance = Mathf.Abs(player.position.y - transform.position.y);
+        if (player != null)
+        {
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            float verticalDistance = Mathf.Abs(player.position.y - transform.position.y);
 
-    if (canAttackPlayer && distanceToPlayer <= attackRange && verticalDistance <= 1f)
-    {
-        AttackPlayer();
-        return;
-    }
+            if (canAttackPlayer && distanceToPlayer <= attackRange && verticalDistance <= 1f)
+            {
+                AttackPlayer();
+                return;
+            }
 
-    if (canChasePlayer && distanceToPlayer <= detectRange && verticalDistance <= 1f)
-    {
-        ChasePlayer();
-        return;
-    }
-}
+            if (canChasePlayer && distanceToPlayer <= detectRange && verticalDistance <= 1f)
+            {
+                ChasePlayer();
+                return;
+            }
+        }
+
         Patrol();
     }
 
     void Patrol()
     {
-        MoveTo(targetPoint.position, patrolSpeed);
+        Vector2 patrolTarget = GetCurrentPatrolTarget();
+        MoveTo(patrolTarget, patrolSpeed);
 
-        float distance = Vector2.Distance(transform.position, targetPoint.position);
-
-        if (distance < 0.05f)
+        if (Vector2.Distance(transform.position, patrolTarget) < 0.05f)
         {
-            targetPoint = targetPoint == pointA ? pointB : pointA;
+            SwitchPatrolTarget();
         }
     }
 
@@ -213,6 +230,21 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
+    void HandleKnockback()
+    {
+        if (rb != null)
+        {
+            rb.linearVelocity = new Vector2(knockbackDirection * knockbackSpeed, rb.linearVelocity.y);
+        }
+
+        knockbackTimer -= Time.deltaTime;
+        if (knockbackTimer <= 0f)
+        {
+            isKnockedBack = false;
+            StopMoving();
+        }
+    }
+
     void UpdateAnimation(float speedValue)
     {
         if (anim == null) return;
@@ -220,23 +252,114 @@ public class EnemyPatrol : MonoBehaviour
         anim.SetFloat("Speed", speedValue);
     }
 
-    // Gọi bằng Animation Event trong clip Attack của quái
     public void DealDamageToPlayer()
     {
-        if (player == null || enemyHealth == null || isDead) return;
+        if (player == null || enemyHealth == null || isDead || isKnockedBack || !isAttacking) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
         if (distance > attackRange + 0.3f) return;
 
-        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-        if (playerHealth != null)
+        if (PlayerCompatibilityUtility.TryTakeDamage(player, enemyHealth.damageToPlayer))
         {
-            playerHealth.TakeDamage(enemyHealth.damageToPlayer);
+            float dir = player.position.x < transform.position.x ? -1f : 1f;
+            PlayerCompatibilityUtility.ApplyKnockback(player, dir, 3f, 0.15f);
         }
     }
-    // Gọi bằng Animation Event ở frame cuối clip Attack
+
     public void EndAttack()
     {
         isAttacking = false;
+    }
+
+    public void ApplyKnockback(float direction, float speed, float duration)
+    {
+        if (isDead) return;
+
+        isKnockedBack = true;
+        isAttacking = false;
+        attackTimer = 0f;
+        knockbackDirection = direction;
+        knockbackSpeed = speed;
+        knockbackTimer = duration;
+
+        if (anim != null)
+        {
+            anim.ResetTrigger("Attack");
+        }
+    }
+
+    private void RefreshPlayerReference(bool force = false)
+    {
+        if (!force && player != null && player.gameObject.activeInHierarchy && !PlayerCompatibilityUtility.IsDead(player.gameObject))
+        {
+            return;
+        }
+
+        if (!force)
+        {
+            playerRefreshTimer -= Time.deltaTime;
+            if (playerRefreshTimer > 0f)
+            {
+                return;
+            }
+        }
+
+        playerRefreshTimer = PlayerRefreshInterval;
+
+        GameObject playerObj = PlayerCompatibilityUtility.FindPlayer();
+        player = playerObj != null ? playerObj.transform : null;
+    }
+
+    private void InitializePatrolRoute()
+    {
+        useFallbackPatrolPoints = pointA == null || pointB == null;
+
+        if (!useFallbackPatrolPoints)
+        {
+            useFallbackPatrolPoints = Vector2.Distance(pointA.position, pointB.position) <= PatrolPointOverlapThreshold;
+        }
+
+        if (useFallbackPatrolPoints)
+        {
+            fallbackPointAPosition = (Vector2)transform.position + Vector2.left * FallbackPatrolDistance;
+            fallbackPointBPosition = (Vector2)transform.position + Vector2.right * FallbackPatrolDistance;
+            moveTowardsFallbackPointB = true;
+            targetPoint = null;
+            return;
+        }
+
+        targetPoint = pointB != null ? pointB : pointA;
+    }
+
+    private bool HasPatrolRoute()
+    {
+        return useFallbackPatrolPoints || (pointA != null && pointB != null);
+    }
+
+    private Vector2 GetCurrentPatrolTarget()
+    {
+        if (useFallbackPatrolPoints)
+        {
+            return moveTowardsFallbackPointB ? fallbackPointBPosition : fallbackPointAPosition;
+        }
+
+        return targetPoint != null ? targetPoint.position : (Vector2)transform.position;
+    }
+
+    private void SwitchPatrolTarget()
+    {
+        if (useFallbackPatrolPoints)
+        {
+            moveTowardsFallbackPointB = !moveTowardsFallbackPointB;
+            return;
+        }
+
+        if (targetPoint == null)
+        {
+            targetPoint = pointB != null ? pointB : pointA;
+            return;
+        }
+
+        targetPoint = targetPoint == pointA ? pointB : pointA;
     }
 }

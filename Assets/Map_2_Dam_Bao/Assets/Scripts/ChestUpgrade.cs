@@ -80,6 +80,8 @@ public class ChestUpgrade : MonoBehaviour
         {
             PlayerCombat combat = player.GetComponent<PlayerCombat>();
             PlayerCombat_BuffHeal buffHealCombat = player.GetComponent<PlayerCombat_BuffHeal>();
+            PlayerController legacyController = player.GetComponent<PlayerController>();
+            PlayerHealth legacyHealth = player.GetComponent<PlayerHealth>();
 
             if (combat != null)
             {
@@ -96,10 +98,18 @@ public class ChestUpgrade : MonoBehaviour
                 buffHealCombat.UpgradeHealAmount(10);
             }
 
+            if (legacyController != null && legacyHealth != null)
+            {
+                legacyController.skillDamage += skillDamageIncrease;
+                legacyController.skillLDamage += skillDamageIncrease;
+                legacyController.attackRadius += attackRangeIncrease;
+                legacyController.skillManaCost = Mathf.Max(1, legacyController.skillManaCost - manaCostReduce);
+            }
+
             PlayerSpeechBubble bubble = player.GetComponent<PlayerSpeechBubble>();
             if (bubble != null)
             {
-                bubble.ShowBubble("Skill đã năng cấp!", 2f);
+                bubble.ShowBubble("Skill da nang cap!", 2f);
             }
         }
 

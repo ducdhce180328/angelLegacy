@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerCombat_BuffHeal : MonoBehaviour
 {
@@ -21,6 +22,11 @@ public class PlayerCombat_BuffHeal : MonoBehaviour
     public int healAmount = 30;
     public int healManaCost = 20;
     public float healCooldown = 10f;
+
+    [Header("Gamepad Buttons")]
+    public KeyCode gamepadNormalAttackButton = KeyCode.JoystickButton2; // PS Square
+    public KeyCode gamepadBuffButton = KeyCode.JoystickButton3; // PS Triangle
+    public KeyCode gamepadHealButton = KeyCode.JoystickButton1; // PS Circle
 
     private float attack1Timer;
     private float buffTimer;
@@ -47,7 +53,7 @@ public class PlayerCombat_BuffHeal : MonoBehaviour
         buffTimer -= Time.deltaTime;
         healTimer -= Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.J) && attack1Timer <= 0f)
+        if (NormalAttackPressed() && attack1Timer <= 0f)
         {
             attack1Timer = attack1Cooldown;
 
@@ -57,7 +63,7 @@ public class PlayerCombat_BuffHeal : MonoBehaviour
             DoNormalAttack();
         }
 
-        if (Input.GetKeyDown(KeyCode.K) && buffTimer <= 0f)
+        if (BuffPressed() && buffTimer <= 0f)
         {
             buffTimer = buffCooldown;
 
@@ -67,7 +73,7 @@ public class PlayerCombat_BuffHeal : MonoBehaviour
             StartCoroutine(DamageBuffRoutine());
         }
 
-        if (Input.GetKeyDown(KeyCode.L) && healTimer <= 0f)
+        if (HealPressed() && healTimer <= 0f)
         {
             if (mana != null && mana.UseMana(healManaCost))
             {
@@ -86,6 +92,24 @@ public class PlayerCombat_BuffHeal : MonoBehaviour
         }
     }
 
+    bool NormalAttackPressed()
+    {
+        return Input.GetKeyDown(KeyCode.J)
+            || Input.GetKeyDown(gamepadNormalAttackButton);
+    }
+
+    bool BuffPressed()
+    {
+        return Input.GetKeyDown(KeyCode.K)
+            || Input.GetKeyDown(gamepadBuffButton);
+    }
+
+    bool HealPressed()
+    {
+        return Input.GetKeyDown(KeyCode.L)
+            || Input.GetKeyDown(gamepadHealButton);
+    }
+
     void DoNormalAttack()
     {
         int finalDamage = normalAttackDamage;
@@ -94,14 +118,15 @@ public class PlayerCombat_BuffHeal : MonoBehaviour
             finalDamage += buffExtraDamage;
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+        HashSet<Component> damagedTargets = new HashSet<Component>();
 
         foreach (Collider2D hit in hits)
         {
-            Health enemyHealth = hit.GetComponent<Health>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(finalDamage);
-            }
+            Component receiver = EnemyCompatibilityUtility.GetDamageReceiver(hit);
+            if (receiver == null || damagedTargets.Contains(receiver)) continue;
+
+            damagedTargets.Add(receiver);
+            EnemyCompatibilityUtility.ApplyDamageWithKnockback(receiver, finalDamage, attackPoint.position);
         }
     }
 

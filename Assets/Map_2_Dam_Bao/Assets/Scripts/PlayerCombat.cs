@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Mana")]
     public int attack3ManaCost = 20;
+
+    [Header("Gamepad Buttons")]
+    public KeyCode gamepadNormalAttackButton = KeyCode.JoystickButton2; // PS Square
+    public KeyCode gamepadBlockButton = KeyCode.JoystickButton3; // PS Triangle
+    public KeyCode gamepadSkillButton = KeyCode.JoystickButton1; // PS Circle
 
     private float attack1Timer;
     private float attack3Timer;
@@ -46,7 +52,7 @@ public class PlayerCombat : MonoBehaviour
         if (isBlocking) return;
 
         // J = đánh thường
-        if (Input.GetKeyDown(KeyCode.J) && attack1Timer <= 0)
+        if (NormalAttackPressed() && attack1Timer <= 0)
         {
             attack1Timer = attack1Cooldown;
 
@@ -57,7 +63,7 @@ public class PlayerCombat : MonoBehaviour
         }
 
         // L = skill tốn mana
-        if (Input.GetKeyDown(KeyCode.L) && attack3Timer <= 0)
+        if (SkillPressed() && attack3Timer <= 0)
         {
             if (mana != null && mana.UseMana(attack3ManaCost))
             {
@@ -77,7 +83,7 @@ public class PlayerCombat : MonoBehaviour
 
     void HandleBlock()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (BlockPressed())
         {
             isBlocking = true;
 
@@ -88,7 +94,7 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.K))
+        if (BlockReleased())
         {
             isBlocking = false;
 
@@ -105,17 +111,42 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    bool NormalAttackPressed()
+    {
+        return Input.GetKeyDown(KeyCode.J)
+            || Input.GetKeyDown(gamepadNormalAttackButton);
+    }
+
+    bool SkillPressed()
+    {
+        return Input.GetKeyDown(KeyCode.L)
+            || Input.GetKeyDown(gamepadSkillButton);
+    }
+
+    bool BlockPressed()
+    {
+        return Input.GetKeyDown(KeyCode.K)
+            || Input.GetKeyDown(gamepadBlockButton);
+    }
+
+    bool BlockReleased()
+    {
+        return Input.GetKeyUp(KeyCode.K)
+            || Input.GetKeyUp(gamepadBlockButton);
+    }
+
     void DoAttack(int damage)
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+        HashSet<Component> damagedTargets = new HashSet<Component>();
 
         foreach (Collider2D hit in hits)
         {
-            Health enemyHealth = hit.GetComponent<Health>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(damage);
-            }
+            Component receiver = EnemyCompatibilityUtility.GetDamageReceiver(hit);
+            if (receiver == null || damagedTargets.Contains(receiver)) continue;
+
+            damagedTargets.Add(receiver);
+            EnemyCompatibilityUtility.ApplyDamageWithKnockback(receiver, damage, attackPoint.position);
         }
     }
 
@@ -127,19 +158,19 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
     public void UpgradeSkillDamage(int amount)
-{
-    skillManaDamage += amount;
-}
+    {
+        skillManaDamage += amount;
+    }
 
-public void UpgradeAttackRange(float amount)
-{
-    attackRange += amount;
-}
+    public void UpgradeAttackRange(float amount)
+    {
+        attackRange += amount;
+    }
 
-public void ReduceSkillManaCost(int amount)
-{
-    attack3ManaCost -= amount;
-    if (attack3ManaCost < 1)
-        attack3ManaCost = 1;
-}
+    public void ReduceSkillManaCost(int amount)
+    {
+        attack3ManaCost -= amount;
+        if (attack3ManaCost < 1)
+            attack3ManaCost = 1;
+    }
 }

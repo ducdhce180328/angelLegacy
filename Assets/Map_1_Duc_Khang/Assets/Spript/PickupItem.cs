@@ -19,24 +19,23 @@ public class PickupItem : MonoBehaviour
         if (isPicked) return;
         if (!other.CompareTag("Player")) return;
 
-        PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-
-        if (playerHealth == null)
-        {
-            playerHealth = other.GetComponentInParent<PlayerHealth>();
-        }
-
-        if (playerHealth == null) return;
-
         isPicked = true;
 
         if (pickupType == PickupType.Health)
         {
-            playerHealth.AddHealth(amount);
+            if (!PlayerCompatibilityUtility.TryHeal(other, amount))
+            {
+                isPicked = false;
+                return;
+            }
         }
         else if (pickupType == PickupType.Mana)
         {
-            playerHealth.AddMana(amount);
+            if (!PlayerCompatibilityUtility.TryRestoreMana(other, amount))
+            {
+                isPicked = false;
+                return;
+            }
         }
 
         Destroy(gameObject);

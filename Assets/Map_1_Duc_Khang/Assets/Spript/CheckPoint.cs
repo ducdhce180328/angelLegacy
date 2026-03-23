@@ -7,12 +7,17 @@ public class CheckPoint : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (isActivated) return;
+        if (!other.CompareTag("Player")) return;
 
         PlayerController player = other.GetComponent<PlayerController>();
-        if (player == null) return;
 
         Vector3 checkpointPos = transform.position + new Vector3(0f, 1f, 0f);
-        player.SetRespawnPoint(checkpointPos);
+        if (player != null)
+        {
+            player.SetRespawnPoint(checkpointPos);
+        }
+
+        CheckpointManager.SetCheckpoint(checkpointPos);
 
         Debug.Log("Checkpoint activated at: " + checkpointPos);
         isActivated = true;

@@ -25,8 +25,8 @@ public class EnemyAI : MonoBehaviour
     public LayerMask playerLayer;
 
     [Header("Push Back")]
-public float pushBackSpeed = 4f;
-public float pushBackDuration = 0.15f;
+    public float pushBackSpeed = 4f;
+    public float pushBackDuration = 0.15f;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -35,45 +35,55 @@ public float pushBackDuration = 0.15f;
     private Transform currentPatrolTarget;
     private float attackTimer;
     private bool isFacingRight = true;
+    private bool isKnockedBack;
+    private float knockbackTimer;
+    private float knockbackDirection;
+    private float knockbackSpeed;
 
     void Start()
-{
-    rb = GetComponent<Rigidbody2D>();
-    anim = GetComponent<Animator>();
-    health = GetComponent<Health>();
-
-    currentPatrolTarget = rightPoint;
-
-    if (GetComponent<SpriteRenderer>() != null)
-        GetComponent<SpriteRenderer>().flipX = false;
-
-    if (player == null)
     {
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null)
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        health = GetComponent<Health>();
+
+        currentPatrolTarget = rightPoint;
+
+        if (GetComponent<SpriteRenderer>() != null)
+            GetComponent<SpriteRenderer>().flipX = false;
+
+        if (player == null)
         {
-            player = playerObj.transform;
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
+            {
+                player = playerObj.transform;
+            }
         }
     }
-}
 
     void Update()
-{
-    if (health != null && health.isDead) return;
-    if (leftPoint == null || rightPoint == null) return;
-
-    if (player == null)
     {
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null)
+        if (health != null && health.isDead) return;
+        if (leftPoint == null || rightPoint == null) return;
+
+        if (isKnockedBack)
         {
-            player = playerObj.transform;
-        }
-        else
-        {
+            HandleKnockback();
             return;
         }
-    }
+
+        if (player == null)
+        {
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
+            {
+                player = playerObj.transform;
+            }
+            else
+            {
+                return;
+            }
+        }
 
         attackTimer -= Time.deltaTime;
 
@@ -134,48 +144,62 @@ public float pushBackDuration = 0.15f;
     }
 
     void HandleAttack()
-{
-    rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
-
-    if (anim != null)
-        anim.SetFloat("Speed", 0f);
-
-    FaceTarget(player.position.x);
-
-    if (attackTimer <= 0f)
     {
-        attackTimer = attackCooldown;
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if (anim != null)
-            anim.SetTrigger("Attack");
+            anim.SetFloat("Speed", 0f);
 
-        DealDamage(); // gọi trực tiếp để test
-    }
-}
+        FaceTarget(player.position.x);
 
-    public void DealDamage()
-{
-    if (attackPoint == null) return;
-
-    Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, damageRange, playerLayer);
-    if (hit == null) return;
-
-    Health playerHealth = hit.GetComponentInParent<Health>();
-if (playerHealth != null)
-{
-    bool damaged = playerHealth.TakeDamage(damage);
-
-    if (damaged)
-    {
-        PlayerMovementController  playerController = hit.GetComponentInParent<PlayerMovementController >();
-        if (playerController != null)
+        if (attackTimer <= 0f)
         {
-            float dir = playerController.transform.position.x < transform.position.x ? -1f : 1f;
-            playerController.ApplyKnockback(dir, pushBackSpeed, pushBackDuration);
+            attackTimer = attackCooldown;
+
+            if (anim != null)
+                anim.SetTrigger("Attack");
+
+            DealDamage();
         }
     }
-}
-}
+
+    public void DealDamage()
+    {
+        if (attackPoint == null || isKnockedBack) return;
+
+        Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, damageRange, playerLayer);
+        if (hit == null) return;
+
+        bool damaged = PlayerCompatibilityUtility.TryTakeDamage(hit, damage);
+        if (damaged)
+        {
+            float dir = hit.transform.position.x < transform.position.x ? -1f : 1f;
+            PlayerCompatibilityUtility.ApplyKnockback(hit, dir, pushBackSpeed, pushBackDuration);
+        }
+    }
+
+    void HandleKnockback()
+    {
+        if (rb != null)
+        {
+            rb.linearVelocity = new Vector2(knockbackDirection * knockbackSpeed, rb.linearVelocity.y);
+        }
+
+        if (anim != null)
+        {
+            anim.SetFloat("Speed", 0f);
+        }
+
+        knockbackTimer -= Time.deltaTime;
+        if (knockbackTimer <= 0f)
+        {
+            isKnockedBack = false;
+            if (rb != null)
+            {
+                rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            }
+        }
+    }
 
     void FaceTarget(float targetX)
     {
@@ -200,6 +224,23 @@ if (playerHealth != null)
         {
             isFacingRight = false;
             transform.localScale = new Vector3(-1, 1, 1);
+        }
+    }
+
+    public void ApplyKnockback(float direction, float speed, float duration)
+    {
+        if (health != null && health.isDead) return;
+
+        isKnockedBack = true;
+        attackTimer = attackCooldown;
+        knockbackDirection = direction;
+        knockbackSpeed = speed;
+        knockbackTimer = duration;
+
+        if (anim != null)
+        {
+            anim.ResetTrigger("Attack");
+            anim.SetFloat("Speed", 0f);
         }
     }
 

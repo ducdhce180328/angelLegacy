@@ -8,14 +8,9 @@ public class HealItem : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
 
-        Health playerHealth = other.GetComponentInParent<Health>();
-        if (playerHealth != null && !playerHealth.isDead)
+        if (PlayerCompatibilityUtility.TryHeal(other, healAmount))
         {
-            if (playerHealth.currentHP < playerHealth.maxHP)
-            {
-                playerHealth.Heal(healAmount);
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 }

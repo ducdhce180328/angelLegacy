@@ -76,7 +76,14 @@ public class Health : MonoBehaviour
         if (rb != null)
             rb.linearVelocity = Vector2.zero;
 
-        if (!CompareTag("Player"))
+        if (CompareTag("Player"))
+        {
+            if (UIManager.instance != null)
+            {
+                UIManager.instance.ShowGameOver();
+            }
+        }
+        else
         {
             Destroy(gameObject, 1.5f);
         }
@@ -93,9 +100,17 @@ public class Health : MonoBehaviour
         if (player == null) return;
 
         PlayerStats stats = player.GetComponent<PlayerStats>();
-        if (stats == null) return;
+        if (stats != null)
+        {
+            stats.AddPoints(reward.rewardPoints);
+            rewardGiven = true;
+            return;
+        }
 
-        stats.AddPoints(reward.rewardPoints);
+        LegacyPlayerStats legacyStats = player.GetComponent<LegacyPlayerStats>();
+        if (legacyStats == null) return;
+
+        legacyStats.AddPoints(reward.rewardPoints);
         rewardGiven = true;
     }
 }

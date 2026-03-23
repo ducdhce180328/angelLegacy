@@ -3,35 +3,64 @@ using UnityEngine;
 public class PlayerUpgradeInput : MonoBehaviour
 {
     private PlayerStats stats;
+    private LegacyPlayerStats legacyStats;
 
     void Start()
     {
         stats = GetComponent<PlayerStats>();
+        legacyStats = GetComponent<LegacyPlayerStats>();
     }
 
     void Update()
     {
-        if (stats == null) return;
+        if (stats == null && legacyStats == null) return;
 
-        // 1 = tăng HP
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if (stats.UpgradeHP())
+            if (TryUpgradeHP())
                 Debug.Log("Da nang cap HP");
         }
 
-        // 2 = tăng Mana
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            if (stats.UpgradeMana())
+            if (TryUpgradeMana())
                 Debug.Log("Da nang cap Mana");
         }
 
-        // 3 = tăng sát thương đánh thường
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            if (stats.UpgradeNormalAttack())
+            if (TryUpgradeAttack())
                 Debug.Log("Da nang cap sat thuong danh thuong");
         }
+    }
+
+    bool TryUpgradeHP()
+    {
+        if (stats != null)
+        {
+            return stats.UpgradeHP();
+        }
+
+        return legacyStats != null && legacyStats.UpgradeHP();
+    }
+
+    bool TryUpgradeMana()
+    {
+        if (stats != null)
+        {
+            return stats.UpgradeMana();
+        }
+
+        return legacyStats != null && legacyStats.UpgradeMana();
+    }
+
+    bool TryUpgradeAttack()
+    {
+        if (stats != null)
+        {
+            return stats.UpgradeNormalAttack();
+        }
+
+        return legacyStats != null && legacyStats.UpgradeNormalAttack();
     }
 }

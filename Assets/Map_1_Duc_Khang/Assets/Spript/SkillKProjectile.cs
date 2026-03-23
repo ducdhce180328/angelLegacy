@@ -36,17 +36,11 @@ public class SkillKProjectile : MonoBehaviour
 
         if (other.CompareTag("Player")) return;
 
-        EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
-
-        if (enemyHealth == null)
-        {
-            enemyHealth = other.GetComponentInParent<EnemyHealth>();
-        }
-
-        if (enemyHealth != null)
+        Component receiver = EnemyCompatibilityUtility.GetDamageReceiver(other);
+        if (receiver != null)
         {
             hasHit = true;
-            enemyHealth.TakeDamage(damage);
+            EnemyCompatibilityUtility.ApplyDamageWithKnockback(receiver, damage, transform.position);
             Destroy(gameObject);
             return;
         }

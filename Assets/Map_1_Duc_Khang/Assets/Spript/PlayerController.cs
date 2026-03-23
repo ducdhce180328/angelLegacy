@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Move")]
     public float moveSpeed = 5f;
+    public float analogDeadZone = 0.35f;
 
     [Header("Jump")]
     public float jumpForce = 12f;
@@ -52,10 +53,10 @@ public class PlayerController : MonoBehaviour
     public float skillLProjectileSpeed = 8f;
 
     [Header("Gamepad Buttons")]
-    public KeyCode gamepadJumpButton = KeyCode.JoystickButton0;        // A
-    public KeyCode gamepadNormalAttackButton = KeyCode.JoystickButton2; // X
-    public KeyCode gamepadSkillKButton = KeyCode.JoystickButton1;       // B
-    public KeyCode gamepadSkillLButton = KeyCode.JoystickButton3;       // Y
+    public KeyCode gamepadJumpButton = KeyCode.JoystickButton0;         // PS Cross
+    public KeyCode gamepadNormalAttackButton = KeyCode.JoystickButton2; // PS Square
+    public KeyCode gamepadSkillKButton = KeyCode.JoystickButton3;       // PS Triangle
+    public KeyCode gamepadSkillLButton = KeyCode.JoystickButton1;       // PS Circle
     public KeyCode gamepadSlideButton = KeyCode.JoystickButton5;        // RB
 
     private Rigidbody2D rb;
@@ -232,32 +233,56 @@ private void Start()
 
     private float GetHorizontalInput()
     {
-        float value = Input.GetAxisRaw("Horizontal");
-
-        if (Mathf.Abs(value) < 0.01f)
+        float value = GetKeyboardAxis(KeyCode.A, KeyCode.LeftArrow, KeyCode.D, KeyCode.RightArrow);
+        if (Mathf.Abs(value) < 0.01f && HasConnectedJoystick())
         {
-            value = Input.GetAxisRaw("JoystickHorizontal");
+            value = Input.GetAxisRaw("Horizontal");
         }
 
-        return Mathf.Abs(value) > 0.1f ? Mathf.Sign(value) : 0f;
+        return Mathf.Abs(value) >= analogDeadZone ? value : 0f;
     }
 
     private float GetVerticalInput()
     {
-        float value = Input.GetAxisRaw("Vertical");
-
-        if (Mathf.Abs(value) < 0.01f)
+        float value = GetKeyboardAxis(KeyCode.S, KeyCode.DownArrow, KeyCode.W, KeyCode.UpArrow);
+        if (Mathf.Abs(value) < 0.01f && HasConnectedJoystick())
         {
-            value = Input.GetAxisRaw("JoystickVertical");
+            value = Input.GetAxisRaw("Vertical");
         }
 
-        return Mathf.Abs(value) > 0.1f ? Mathf.Sign(value) : 0f;
+        return Mathf.Abs(value) >= analogDeadZone ? value : 0f;
+    }
+
+    private float GetKeyboardAxis(KeyCode negativeKey, KeyCode negativeAltKey, KeyCode positiveKey, KeyCode positiveAltKey)
+    {
+        bool negativePressed = Input.GetKey(negativeKey) || Input.GetKey(negativeAltKey);
+        bool positivePressed = Input.GetKey(positiveKey) || Input.GetKey(positiveAltKey);
+
+        if (negativePressed == positivePressed)
+        {
+            return 0f;
+        }
+
+        return positivePressed ? 1f : -1f;
+    }
+
+    private bool HasConnectedJoystick()
+    {
+        string[] joystickNames = Input.GetJoystickNames();
+        for (int i = 0; i < joystickNames.Length; i++)
+        {
+            if (!string.IsNullOrWhiteSpace(joystickNames[i]))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private bool JumpPressed()
     {
-        return Input.GetButtonDown("Jump")
-            || Input.GetKeyDown(KeyCode.Space)
+        return Input.GetKeyDown(KeyCode.Space)
             || Input.GetKeyDown(gamepadJumpButton);
     }
 
@@ -540,22 +565,15 @@ private void Start()
             enemyLayer
         );
 
-        HashSet<EnemyHealth> damagedEnemies = new HashSet<EnemyHealth>();
+        HashSet<Component> damagedEnemies = new HashSet<Component>();
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+            Component receiver = EnemyCompatibilityUtility.GetDamageReceiver(enemy);
+            if (receiver == null || damagedEnemies.Contains(receiver)) continue;
 
-            if (enemyHealth == null)
-            {
-                enemyHealth = enemy.GetComponentInParent<EnemyHealth>();
-            }
-
-            if (enemyHealth != null && !damagedEnemies.Contains(enemyHealth))
-            {
-                damagedEnemies.Add(enemyHealth);
-                enemyHealth.TakeDamage(normalAttackDamage);
-            }
+            damagedEnemies.Add(receiver);
+            EnemyCompatibilityUtility.ApplyDamageWithKnockback(receiver, normalAttackDamage, attackPoint.position);
         }
     }
 
@@ -569,22 +587,15 @@ private void Start()
             enemyLayer
         );
 
-        HashSet<EnemyHealth> damagedEnemies = new HashSet<EnemyHealth>();
+        HashSet<Component> damagedEnemies = new HashSet<Component>();
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+            Component receiver = EnemyCompatibilityUtility.GetDamageReceiver(enemy);
+            if (receiver == null || damagedEnemies.Contains(receiver)) continue;
 
-            if (enemyHealth == null)
-            {
-                enemyHealth = enemy.GetComponentInParent<EnemyHealth>();
-            }
-
-            if (enemyHealth != null && !damagedEnemies.Contains(enemyHealth))
-            {
-                damagedEnemies.Add(enemyHealth);
-                enemyHealth.TakeDamage(skillDamage);
-            }
+            damagedEnemies.Add(receiver);
+            EnemyCompatibilityUtility.ApplyDamageWithKnockback(receiver, skillDamage, attackPoint.position);
         }
     }
 

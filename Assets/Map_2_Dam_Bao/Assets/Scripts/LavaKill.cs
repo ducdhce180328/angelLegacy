@@ -19,11 +19,8 @@ public class LavaKill : MonoBehaviour
 
         if (collision.collider.CompareTag("Player"))
         {
-            Health playerHealth = collision.collider.GetComponentInParent<Health>();
-
-            if (playerHealth != null && !playerHealth.isDead)
+            if (PlayerCompatibilityUtility.TryTakeDamage(collision.collider, damage))
             {
-                playerHealth.TakeDamage(damage);
                 cooldownTimer = damageCooldown;
             }
         }

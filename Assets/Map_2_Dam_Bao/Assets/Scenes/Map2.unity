@@ -18860,7 +18860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Portal
   targetSceneName: Scene_Duc
-  targetSpawnPosition: {x: 1, y: 1, z: 1}
+  targetSpawnPosition: {x: 1, y: 1, z: 0}
 --- !u!61 &1788256471
 BoxCollider2D:
   m_ObjectHideFlags: 0

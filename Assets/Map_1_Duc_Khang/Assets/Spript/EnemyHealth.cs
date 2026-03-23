@@ -26,12 +26,23 @@ public class EnemyHealth : MonoBehaviour
 
     private Animator anim;
     public bool isDead = false;
+    private float hitStunTimer = 0f;
+
+    public bool IsHitStunned => hitStunTimer > 0f;
 
     private void Start()
     {
         currentHealth = maxHealth;
         anim = GetComponent<Animator>();
         UpdateHealthUI();
+    }
+
+    private void Update()
+    {
+        if (hitStunTimer > 0f)
+        {
+            hitStunTimer -= Time.deltaTime;
+        }
     }
 
     public void TakeDamage(int damage)
@@ -56,6 +67,13 @@ public class EnemyHealth : MonoBehaviour
         {
             Die();
         }
+    }
+
+    public void ApplyHitStun(float duration)
+    {
+        if (isDead) return;
+
+        hitStunTimer = Mathf.Max(hitStunTimer, duration);
     }
 
     void UpdateHealthUI()

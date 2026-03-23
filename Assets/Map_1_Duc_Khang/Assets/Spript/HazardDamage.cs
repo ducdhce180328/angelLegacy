@@ -8,11 +8,7 @@ public class HazardDamage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(damage);
-            }
+            PlayerCompatibilityUtility.TryTakeDamage(other, damage);
         }
     }
 }

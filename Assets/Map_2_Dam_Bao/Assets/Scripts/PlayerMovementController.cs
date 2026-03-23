@@ -4,6 +4,7 @@ public class PlayerMovementController : MonoBehaviour
 {
     [Header("Move")]
     public float moveSpeed = 5f;
+    public float analogDeadZone = 0.35f;
 
     [Header("Jump")]
     public float jumpForce = 10f;
@@ -20,6 +21,10 @@ public class PlayerMovementController : MonoBehaviour
     public float slideSpeed = 8f;
     public float slideDuration = 0.2f;
     public float slideCooldown = 1f;
+
+    [Header("Gamepad Buttons")]
+    public KeyCode gamepadJumpButton = KeyCode.JoystickButton0; // PS Cross
+    public KeyCode gamepadSlideButton = KeyCode.JoystickButton5; // RB
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -80,8 +85,8 @@ public class PlayerMovementController : MonoBehaviour
             }
         }
 
-        moveInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
+        moveInput = GetHorizontalInput();
+        verticalInput = GetVerticalInput();
 
         CheckGround();
         HandleJump();
@@ -135,7 +140,7 @@ public class PlayerMovementController : MonoBehaviour
 
     void HandleJump()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded && !isClimbing)
+        if (JumpPressed() && isGrounded && !isClimbing)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
 
@@ -262,6 +267,61 @@ public class PlayerMovementController : MonoBehaviour
         knockbackTimer = duration;
     }
 
+    float GetHorizontalInput()
+    {
+        float value = GetKeyboardAxis(KeyCode.A, KeyCode.LeftArrow, KeyCode.D, KeyCode.RightArrow);
+        if (Mathf.Abs(value) < 0.01f && HasConnectedJoystick())
+        {
+            value = Input.GetAxisRaw("Horizontal");
+        }
+
+        return Mathf.Abs(value) >= analogDeadZone ? value : 0f;
+    }
+
+    float GetVerticalInput()
+    {
+        float value = GetKeyboardAxis(KeyCode.S, KeyCode.DownArrow, KeyCode.W, KeyCode.UpArrow);
+        if (Mathf.Abs(value) < 0.01f && HasConnectedJoystick())
+        {
+            value = Input.GetAxisRaw("Vertical");
+        }
+
+        return Mathf.Abs(value) >= analogDeadZone ? value : 0f;
+    }
+
+    float GetKeyboardAxis(KeyCode negativeKey, KeyCode negativeAltKey, KeyCode positiveKey, KeyCode positiveAltKey)
+    {
+        bool negativePressed = Input.GetKey(negativeKey) || Input.GetKey(negativeAltKey);
+        bool positivePressed = Input.GetKey(positiveKey) || Input.GetKey(positiveAltKey);
+
+        if (negativePressed == positivePressed)
+        {
+            return 0f;
+        }
+
+        return positivePressed ? 1f : -1f;
+    }
+
+    bool HasConnectedJoystick()
+    {
+        string[] joystickNames = Input.GetJoystickNames();
+        for (int i = 0; i < joystickNames.Length; i++)
+        {
+            if (!string.IsNullOrWhiteSpace(joystickNames[i]))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    bool JumpPressed()
+    {
+        return Input.GetKeyDown(KeyCode.Space)
+            || Input.GetKeyDown(gamepadJumpButton);
+    }
+
     void HandleSlide()
     {
         if (isSliding) return;
@@ -269,7 +329,7 @@ public class PlayerMovementController : MonoBehaviour
         if (!isGrounded) return;
         if (isClimbing) return;
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (SlidePressed())
         {
             isSliding = true;
             slideTimer = slideDuration;
@@ -278,5 +338,11 @@ public class PlayerMovementController : MonoBehaviour
             if (anim != null)
                 anim.SetTrigger("Slide");
         }
+    }
+
+    bool SlidePressed()
+    {
+        return Input.GetKeyDown(KeyCode.I)
+            || Input.GetKeyDown(gamepadSlideButton);
     }
 }
